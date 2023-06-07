@@ -1,0 +1,1413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+/*  start overview */
+nav {
+    height: 1050px;
+    width: 220px;
+    position: absolute;
+
+    background: white;
+
+    margin-left: 8px;
+    margin-top: 58px;
+
+
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+    position: absolute;
+
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    color: #42526E;
+
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* font-family: 'MYRIAD-PRO'; */
+    padding: 15px 15px;
+    height: 50px;
+    margin-left: -10px;
+    margin-top: 10px;
+    transition: .1s ease;
+
+}
+
+nav ul li a:hover {
+    background: rgb(231, 240, 248);
+    color: #3BB161;
+    width: 200px;
+    margin-left: -25px;
+    border-radius: 12px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+/*  end overview */
+
+
+/* fees & payment dropdown */
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    background-color: rgb(224, 218, 218);
+    margin-top: -55px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    /* font-family: 'MYRIAD-SEMIBOLD'; */
+    display: none;
+    /* background: #3BB161; */
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+    color: gray;
+
+
+}
+
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+
+nav ul .dropdown:hover ul {
+    display: initial;
+    color: lightgrey;
+}
+
+/* end fees & payment  */
+
+
+
+/* start tax challan */
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    color: #42526E;
+    margin-top: 100px;
+    /* font-family: 'MYRIAD-SEMIBOLD'; */
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    background: rgba(197, 199, 197, 0.918);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown5 {
+    position: relative;
+}
+
+nav ul .dropdown5:hover ul {
+    display: initial;
+}
+
+/* end tax challan */
+
+/* start document */
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    color: #42526E;
+    margin-top: -200px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    background: rgba(232, 247, 234, 0.918);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown2 {
+    position: relative;
+}
+
+nav ul .dropdown2:hover ul {
+    display: initial;
+}
+
+/* end document */
+
+
+
+/* start acknowlegemnt */
+
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    color: #004C8F;
+    margin-top: -200px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    background: rgba(232, 247, 234, 0.918);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown1 {
+    position: relative;
+}
+
+nav ul .dropdown1:hover ul {
+    display: initial;
+}
+
+/* end acknowlegdement */
+
+
+/* start compliance */
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    color: #42526E;
+    margin-top: -200px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    background: rgba(232, 247, 234, 0.918);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown3 {
+    position: relative;
+}
+
+nav ul .dropdown3:hover ul {
+    display: initial;
+}
+
+/* end compliance */
+
+
+/* start account */
+
+
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    color: #42526E;
+    margin-top: -80px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    background: rgba(232, 247, 234, 0.918);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown4 {
+    position: relative;
+}
+
+nav ul .dropdown4:hover ul {
+    display: initial;
+}
+
+
+
+/* end account */
+
+
+
+body {
+    background-color: #E6E6E6;
+
+
+
+}
+
+.div1 {
+    background-color: #3BB161;
+    height: 85px;
+    width: 1385px;
+}
+
+.div2 {
+    margin-top: -110px;
+    margin-left: 30px;
+}
+
+.div3 input {
+    height: 35px;
+    width: 210px;
+    margin-top: -77px;
+    margin-left: 1000px;
+    /* opacity: 0.3; */
+    font-family: 'MYRIAD PRO';
+    position: absolute;
+    border-radius: 8px 8px 8px 8px;
+    border: none;
+    background-color: rgb(30, 119, 27);
+    color: white;
+    font-size: 14px;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+.div4 h6 {
+    height: 30px;
+    width: 40px;
+    color: white;
+    margin-left: 1253px;
+    margin-top: -69px;
+    position: absolute;
+    font-size: 14px;
+}
+
+.div5 h5 {
+    margin-left: 1293px;
+    margin-top: -76px;
+    color: white;
+    position: absolute;
+
+
+
+}
+
+.div7 {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 1243px;
+    /* color: black; */
+    /* position: absolute; */
+    margin-top: -78px;
+    border: 1px solid black;
+    background-color: rgb(30, 119, 27);
+    border: none;
+
+}
+
+.div8 {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 1285px;
+    margin-top: -36px;
+    border: 1px solid black;
+    background-color: rgb(30, 119, 27);
+    border: none;
+}
+
+.div9 {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: red;
+    border: none;
+    margin-left: 1267px;
+    margin-top: -36px;
+}
+
+.div146 h6 {
+    margin-left: 1330px;
+    margin-top: 1px;
+    position: absolute;
+    color: white;
+}
+
+
+
+/*  */
+
+.div10 h4 {
+    margin-left: 250px;
+    margin-top: 70px;
+    font-size: 25px;
+    color: #42526E;
+
+}
+
+.div11 {
+    margin-left: 250px;
+    margin-top: 20px;
+    background: white;
+    height: 230px;
+    width: 1090px;
+    border-radius: 23px;
+}
+
+/*  */
+.div12 {
+    margin-left: 270px;
+    margin-top: 142px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+
+.div13 h5 {
+    color: white;
+    margin-left: 280px;
+    margin-top: 148px;
+    position: absolute;
+}
+
+.div14 h6 {
+    margin-left: 320px;
+    margin-top: -197px;
+    color: #42526E;
+    font-size: 14px;
+}
+
+
+/*  */
+
+
+.div15 {
+    margin-left: 270px;
+    margin-top: 210px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+
+.div16 h5 {
+    color: white;
+    margin-left: 280px;
+    margin-top: 217px;
+    position: absolute;
+}
+
+.div17 h6 {
+    margin-left: 320px;
+    margin-top: 50px;
+    color: #42526E;
+    font-size: 14px;
+}
+
+/*  */
+.div18 {
+    margin-left: 270px;
+    margin-top: 278px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+
+.div19 h5 {
+    color: white;
+    margin-left: 280px;
+    margin-top: 285px;
+    position: absolute;
+}
+
+.div20 h6 {
+    margin-left: 320px;
+    margin-top: 50px;
+    color: #42526E;
+    font-size: 14px;
+}
+
+/*  */
+
+
+.div21 {
+    margin-left: 560px;
+    margin-top: -165px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+
+.div22 h5 {
+    color: white;
+    margin-left: 569px;
+    margin-top: -160px;
+    position: absolute;
+}
+
+.div23 h6 {
+    margin-left: 610px;
+    margin-top: -157px;
+    color: #42526E;
+    font-size: 14px;
+}
+
+/*  */
+
+.div24 {
+    margin-left: 560px;
+    margin-top: 36px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+
+.div25 h5 {
+    color: white;
+    margin-left: 569px;
+    margin-top: 42px;
+    position: absolute;
+}
+
+.div26 h6 {
+    margin-left: 610px;
+    margin-top: 52px;
+    color: #42526E;
+    font-size: 14px;
+}
+
+/*  */
+
+
+.div27 {
+    margin-left: 560px;
+    margin-top: 36px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+
+.div28 h5 {
+    color: white;
+    margin-left: 569px;
+    margin-top: 42px;
+    position: absolute;
+}
+
+.div29 h6 {
+    margin-left: 610px;
+    margin-top: 53px;
+    color: #42526E;
+    font-size: 14px;
+}
+
+/*  */
+
+
+.div30 {
+    margin-left: 860px;
+    margin-top: -170px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+
+.div31 h5 {
+    color: white;
+    margin-left: 869px;
+    margin-top: -163px;
+    position: absolute;
+}
+
+.div32 h6 {
+    margin-left: 914px;
+    margin-top: -162px;
+    color: #42526E;
+    font-size: 14px;
+}
+
+/*  */
+
+.div33 {
+    margin-left: 860px;
+    margin-top: 37px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+
+.div34 h5 {
+    color: white;
+    margin-left: 869px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+.div35 h6 {
+    margin-left: 914px;
+    margin-top: 52px;
+    color: #42526E;
+    font-size: 14px;
+}
+
+/*  */
+
+
+.div36 {
+    margin-left: 860px;
+    margin-top: 34px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+
+.div37 h5 {
+    color: white;
+    margin-left: 869px;
+    margin-top: 41px;
+    position: absolute;
+}
+
+.div38 h6 {
+    margin-left: 914px;
+    margin-top: 50px;
+    color: #42526E;
+    font-size: 14px;
+}
+
+/*  */
+
+.div39 {
+    margin-left: 1140px;
+    margin-top: -170px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+
+.div40 h5 {
+    color: white;
+    margin-left: 1150px;
+    margin-top: -166px;
+    position: absolute;
+}
+
+.div41 h6 {
+    margin-left: 1194px;
+    margin-top: -160px;
+    color: #42526E;
+    font-size: 14px;
+}
+
+/*  */
+
+
+.div42 {
+    margin-left: 1140px;
+    margin-top: 32px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+
+.div43 h5 {
+    color: white;
+    margin-left: 1149px;
+    margin-top: 38px;
+    position: absolute;
+}
+
+.div44 h6 {
+    margin-left: 1190px;
+    margin-top: 47px;
+    color: #42526E;
+    font-size: 14px;
+}
+
+/*  */
+
+.div45 {
+    margin-left: 250px;
+    margin-top: 140px;
+    background: white;
+    height: 700px;
+    width: 1090px;
+    border-radius: 23px;
+}
+
+.div46 h5 {
+    margin-left: 270px;
+    margin-top: -680px;
+    font-size: 20px;
+    color: #42526E;
+}
+
+.div47 h6 {
+    margin-left: 432px;
+    margin-top: -28px;
+}
+
+.div48 input {
+    margin-left: 732px;
+    margin-top: -28px;
+    width: 300px;
+    border-radius: 23px;
+}
+
+.div49 input {
+    margin-left: 1040px;
+    margin-top: -38px;
+    width: 190px;
+    border-radius: 23px;
+}
+
+.div50 h6 {
+    margin-left: 1053px;
+    margin-top: -30px;
+}
+
+.div51 h6 {
+    margin-left: 1198px;
+    margin-top: -27px;
+}
+
+.div52 .button {
+    margin-left: 1235px;
+    margin-top: -35px;
+    width: 100px;
+    position: absolute;
+    height: 35px;
+    border-radius: 23px;
+    color: white;
+    background-color: #004C8F;
+
+
+}
+
+.div53 h4 {
+    margin-left: 1250px;
+    margin-top: -32px;
+    position: absolute;
+    color: white;
+    background-color: #004C8F;
+}
+
+.div54 h5 {
+    margin-left: 270px;
+    margin-top: 50px;
+}
+
+.div55 h6 {
+    margin-left: 305px;
+    margin-top: -28px;
+    color: #004C8F;
+    font-size: 14px;
+}
+
+/*  */
+.div56 h6 {
+    margin-left: 420px;
+    margin-top: -25px;
+    color: #004C8F;
+    font-size: 14px;
+}
+
+.div57 h4 {
+    margin-left: 500px;
+    margin-top: -32px;
+    color: #004C8F;
+}
+
+/*  */
+
+.div58 h6 {
+    margin-left: 730px;
+    margin-top: -29px;
+    color: #004C8F;
+    font-size: 14px;
+}
+
+.div59 h4 {
+    margin-left: 780px;
+    margin-top: -33px;
+    color: #004C8F;
+}
+
+/*  */
+
+.div60 h6 {
+    margin-left: 890px;
+    margin-top: -29px;
+    color: #004C8F;
+    font-size: 14px;
+}
+
+.div61 h4 {
+    margin-left: 920px;
+    margin-top: -33px;
+    color: #004C8F;
+}
+
+/*  */
+
+.div62 h6 {
+    margin-left: 1010px;
+    margin-top: -29px;
+    color: #004C8F;
+    font-size: 14px;
+}
+
+.div63 h4 {
+    margin-left: 1075px;
+    margin-top: -33px;
+    color: #004C8F;
+}
+
+/*  */
+
+.div64 h6 {
+    margin-left: 1145px;
+    margin-top: -29px;
+    color: #004C8F;
+    font-size: 14px;
+}
+
+.div65 h4 {
+    margin-left: 1200px;
+    margin-top: -33px;
+    color: #004C8F;
+}
+
+/*  */
+
+.div66 h6 {
+    margin-left: 1250px;
+    margin-top: -29px;
+    color: #004C8F;
+    font-size: 14px;
+}
+
+.div67 {
+    margin-left: 250px;
+    width: 1090px;
+
+
+}
+
+/*  */
+
+.div67 h5 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.div68 {
+    margin-left: 250px;
+    width: 1090px;
+}
+
+/*  */
+.div69 h5 {
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+.div70 {
+    margin-left: 250px;
+    width: 1090px;
+}
+
+/*  */
+
+.div71 h5 {
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+.div72 {
+    margin-left: 250px;
+    width: 1090px;
+}
+
+/*  */
+.div73 h5 {
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+.div74 {
+    margin-left: 250px;
+    width: 1090px;
+}
+
+/*  */
+
+.div75 h5 {
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+.div76 {
+    margin-left: 250px;
+    width: 1090px;
+}
+
+/*  */
+
+.div77 h5 {
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+.div78 {
+    margin-left: 250px;
+    width: 1090px;
+}
+
+/*  */
+
+.div79 h5 {
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+.div80 {
+    margin-left: 250px;
+    width: 1090px;
+}
+
+/*  */
+
+.div81 h5 {
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+.div82 {
+    margin-left: 250px;
+    width: 1090px;
+}
+
+/*  */
+
+.div83 h5 {
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+.div84 {
+    margin-left: 250px;
+    width: 1090px;
+}
+
+/*  */
+
+
+.div85 h5 {
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+/*  */
+
+.div86 h6 {
+    margin-left: 320px;
+    margin-top: -545px;
+}
+
+.div87 h6 {
+    margin-left: 320px;
+    margin-top: 40px;
+}
+
+.div88 h6 {
+    margin-left: 320px;
+    margin-top: 36px;
+}
+
+.div89 h6 {
+    margin-left: 320px;
+    margin-top: 40px;
+}
+
+.div90 h6 {
+    margin-left: 320px;
+    margin-top: 35px;
+}
+
+.div91 h6 {
+    margin-left: 320px;
+    margin-top: 40px;
+}
+
+.div92 h6 {
+    margin-left: 320px;
+    margin-top: 35px;
+}
+
+.div93 h6 {
+    margin-left: 320px;
+    margin-top: 40px;
+}
+
+.div94 h6 {
+    margin-left: 320px;
+    margin-top: 35px;
+}
+
+.div95 h6 {
+    margin-left: 320px;
+    margin-top: 40px;
+}
+
+/*  */
+
+.div96 h6 {
+    margin-left: 420px;
+    margin-top: -540px;
+    font-size: 14px;
+}
+
+.div97 h6 {
+    margin-left: 420px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div98 h6 {
+    margin-left: 420px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div99 h6 {
+    margin-left: 420px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div100 h6 {
+    margin-left: 420px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div101 h6 {
+    margin-left: 420px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div102 h6 {
+    margin-left: 420px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div103 h6 {
+    margin-left: 420px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div104 h6 {
+    margin-left: 420px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div105 h6 {
+    margin-left: 420px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+/*  */
+
+.div106 h6 {
+    margin-left: 720px;
+    margin-top: -537px;
+    font-size: 14px;
+}
+
+.div107 h6 {
+    margin-left: 720px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div108 h6 {
+    margin-left: 720px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div109 h6 {
+    margin-left: 720px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div110 h6 {
+    margin-left: 720px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div111 h6 {
+    margin-left: 720px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div112 h6 {
+    margin-left: 720px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div113 h6 {
+    margin-left: 720px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div114 h6 {
+    margin-left: 720px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div115 h6 {
+    margin-left: 720px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+
+/*  */
+
+.diva h6 {
+    margin-left: 888px;
+    margin-top: -537px;
+    font-size: 14px;
+}
+
+.divb h6 {
+    margin-left: 888px;
+    margin-top: 42px;
+    font-size: 14px;
+}
+
+.divc h6 {
+    margin-left: 888px;
+    margin-top: 42px;
+    font-size: 14px;
+}
+
+.divd h6 {
+    margin-left: 888px;
+    margin-top: 38px;
+    font-size: 14px;
+}
+
+.dive h6 {
+    margin-left: 888px;
+    margin-top: 38px;
+    font-size: 14px;
+}
+
+.divf h6 {
+    margin-left: 888px;
+    margin-top: 42px;
+    font-size: 14px;
+}
+
+.divg h6 {
+    margin-left: 888px;
+    margin-top: 42px;
+    font-size: 14px;
+}
+
+.divh h6 {
+    margin-left: 888px;
+    margin-top: 38px;
+    font-size: 14px;
+}
+
+.divi h6 {
+    margin-left: 888px;
+    margin-top: 39px;
+    font-size: 14px;
+}
+
+.divj h6 {
+    margin-left: 888px;
+    margin-top: 39px;
+    font-size: 14px;
+}
+
+/*  */
+
+.div116 h6 {
+    margin-left: 1010px;
+    margin-top: -533px;
+    font-size: 14px;
+}
+
+.div117 h6 {
+    margin-left: 1140px;
+    margin-top: -24px;
+    font-size: 14px;
+}
+
+/*  */
+
+.div118 h6 {
+    margin-left: 1010px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div119 h6 {
+    margin-left: 1140px;
+    margin-top: -24px;
+    font-size: 14px;
+}
+
+/*  */
+
+.div120 h6 {
+    margin-left: 1010px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div121 h6 {
+    margin-left: 1140px;
+    margin-top: -25px;
+    font-size: 14px;
+}
+
+/*  */
+
+.div122 h6 {
+    margin-left: 1010px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div123 h6 {
+    margin-left: 1140px;
+    margin-top: -25px;
+    font-size: 14px;
+}
+
+/*  */
+
+.div124 h6 {
+    margin-left: 1010px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div125 h6 {
+    margin-left: 1140px;
+    margin-top: -25px;
+    font-size: 14px;
+}
+
+/*  */
+
+.div126 h6 {
+    margin-left: 1010px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div127 h6 {
+    margin-left: 1140px;
+    margin-top: -25px;
+    font-size: 14px;
+}
+
+/*  */
+
+.div128 h6 {
+    margin-left: 1010px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div129 h6 {
+    margin-left: 1140px;
+    margin-top: -25px;
+    font-size: 14px;
+}
+
+/*  */
+
+.div130 h6 {
+    margin-left: 1010px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div131 h6 {
+    margin-left: 1140px;
+    margin-top: -25px;
+    font-size: 14px;
+}
+
+/*  */
+
+.div132 h6 {
+    margin-left: 1010px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.div133 h6 {
+    margin-left: 1140px;
+    margin-top: -25px;
+    font-size: 14px;
+}
+
+/*  */
+
+.div134 h6 {
+    margin-left: 1010px;
+    margin-top: 39px;
+    font-size: 14px;
+}
+
+.div135 h6 {
+    margin-left: 1140px;
+    margin-top: -25px;
+    font-size: 14px;
+}
+
+/*  */
+.div136 h5 {
+    margin-left: 1275px;
+    margin-top: -540px;
+
+}
+
+.div137 h5 {
+    margin-left: 1275px;
+    margin-top: 35px;
+
+}
+
+.div138 h5 {
+    margin-left: 1275px;
+    margin-top: 35px;
+
+}
+
+.div139 h5 {
+    margin-left: 1275px;
+    margin-top: 35px;
+
+}
+
+.div140 h5 {
+    margin-left: 1275px;
+    margin-top: 35px;
+
+}
+
+.div141 h5 {
+    margin-left: 1275px;
+    margin-top: 35px;
+
+}
+
+.div142 h5 {
+    margin-left: 1275px;
+    margin-top: 30px;
+
+}
+
+.div143 h5 {
+    margin-left: 1275px;
+    margin-top: 29px;
+
+}
+
+.div144 h5 {
+    margin-left: 1275px;
+    margin-top: 29px;
+
+}
+
+.div145 h5 {
+    margin-left: 1275px;
+    margin-top: 29px;
+
+}

@@ -1,0 +1,508 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+/*  start overview */
+nav {
+    height: 700px;
+    width: 220px;
+    position: absolute;
+
+    background: white;
+
+    margin-left: 8px;
+    margin-top: 58px;
+
+
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+    position: absolute;
+
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    color: #42526E;
+
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* font-family: 'MYRIAD-PRO'; */
+    padding: 15px 15px;
+    height: 50px;
+    margin-left: -10px;
+    margin-top: 10px;
+    transition: .1s ease;
+
+}
+
+nav ul li a:hover {
+    background: rgb(231, 240, 248);
+    color: #3BB161;
+    width: 200px;
+    margin-left: -25px;
+    border-radius: 12px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+/*  end overview */
+
+
+/* fees & payment dropdown */
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    background-color: rgb(224, 218, 218);
+    margin-top: -55px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    /* font-family: 'MYRIAD-SEMIBOLD'; */
+    display: none;
+    /* background: #3BB161; */
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+    color: gray;
+
+
+}
+
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+
+nav ul .dropdown:hover ul {
+    display: initial;
+    color: lightgrey;
+}
+
+/* end fees & payment  */
+
+
+
+/* start tax challan */
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    color: #42526E;
+    margin-top: 100px;
+    /* font-family: 'MYRIAD-SEMIBOLD'; */
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    background: rgba(197, 199, 197, 0.918);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown5 {
+    position: relative;
+}
+
+nav ul .dropdown5:hover ul {
+    display: initial;
+}
+
+/* end tax challan */
+
+/* start document */
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    color: #42526E;
+    margin-top: -200px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    background: rgba(232, 247, 234, 0.918);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown2 {
+    position: relative;
+}
+
+nav ul .dropdown2:hover ul {
+    display: initial;
+}
+
+/* end document */
+
+
+
+/* start acknowlegemnt */
+
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    color: #004C8F;
+    margin-top: -200px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    background: rgba(232, 247, 234, 0.918);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown1 {
+    position: relative;
+}
+
+nav ul .dropdown1:hover ul {
+    display: initial;
+}
+
+/* end acknowlegdement */
+
+
+/* start compliance */
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    color: #42526E;
+    margin-top: -200px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    background: rgba(232, 247, 234, 0.918);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown3 {
+    position: relative;
+}
+
+nav ul .dropdown3:hover ul {
+    display: initial;
+}
+
+/* end compliance */
+
+
+/* start account */
+
+
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    color: #42526E;
+    margin-top: -80px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    background: rgba(232, 247, 234, 0.918);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown4 {
+    position: relative;
+}
+
+nav ul .dropdown4:hover ul {
+    display: initial;
+}
+
+
+
+/* end account */
+
+
+
+body {
+    background-color: #E6E6E6;
+
+
+
+}
+
+.div1 {
+    background-color: #3BB161;
+    height: 85px;
+    width: 1385px;
+}
+
+.div2 {
+    margin-top: -110px;
+    margin-left: 30px;
+}
+
+.div16 input {
+    height: 35px;
+    width: 210px;
+    margin-top: -77px;
+    margin-left: 1000px;
+    /* opacity: 0.3; */
+    font-family: 'MYRIAD PRO';
+    position: absolute;
+    border-radius: 8px 8px 8px 8px;
+    border: none;
+    background-color: rgb(30, 119, 27);
+    color: white;
+    font-size: 14px;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+.div3 h6 {
+    height: 30px;
+    width: 40px;
+    color: white;
+    margin-left: 1253px;
+    margin-top: -69px;
+    position: absolute;
+    font-size: 14px;
+}
+
+.div4 h5 {
+    margin-left: 1293px;
+    margin-top: -76px;
+    color: white;
+    position: absolute;
+
+
+
+}
+
+.div31 {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 1243px;
+    /* color: black; */
+    /* position: absolute; */
+    margin-top: -78px;
+    border: 1px solid black;
+    background-color: rgb(30, 119, 27);
+    border: none;
+
+}
+
+.div32 {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 1285px;
+    margin-top: -36px;
+    border: 1px solid black;
+    background-color: rgb(30, 119, 27);
+    border: none;
+}
+
+.div33 {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: red;
+    border: none;
+    margin-left: 1267px;
+    margin-top: -36px;
+}
+
+.div101 h6 {
+    margin-left: 1330px;
+    margin-top: 1px;
+    position: absolute;
+    color: white;
+}
+
+
+
+/*  */
+
+.div10 {
+    margin-left: 270px;
+    margin-top: 80px;
+    color: #253858;
+    font-size: 23px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div11 {
+    margin-left: 690px;
+    margin-top: -34px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div12 {
+    border: 1px solid black;
+    background-color: rgb(243, 239, 239);
+    height: 110px;
+    width: 830px;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+
+.div13 {
+    margin-left: 280px;
+    margin-top: -100px;
+    /* font-size: 14px; */
+    font-family: 'MYRIAD PRO';
+}
+
+
+.div17 {
+    margin-left: 420px;
+    margin-top: -28px;
+    /* font-size: 14px; */
+    font-family: 'MYRIAD PRO';
+}
+
+.div18 {
+    margin-top: -28px;
+    margin-left: 550px;
+    /* font-size: 14px; */
+    font-family: 'MYRIAD PRO';
+}
+
+.div19 {
+    margin-top: -27px;
+    margin-left: 700px;
+    /* font-size: 14px; */
+    font-family: 'MYRIAD PRO';
+}
+
+
+.div20 {
+    margin-top: -26px;
+    margin-left: 810px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div21 {
+    margin-top: -28px;
+    margin-left: 990px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+/*  */
+
+.div22 {
+    margin-left: 280px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'MYRIAD-PRO SEMIBOLD';
+}
+
+.div23 {
+    margin-top: -28px;
+    margin-left: 410px;
+    font-size: 14px;
+    font-family: 'MYRIAD-PRO SEMIBOLD';
+}
+
+.div24 {
+    margin-top: -27px;
+    margin-left: 570px;
+    font-size: 14px;
+    font-family: 'MYRIAD-PRO SEMIBOLD';
+}
+
+.div25 {
+    margin-top: -27px;
+    margin-left: 700px;
+    font-size: 14px;
+    font-family: 'MYRIAD-PRO SEMIBOLD';
+}
+
+.div26 {
+    margin-top: -28px;
+    margin-left: 830px;
+    font-size: 14px;
+    font-family: 'MYRIAD-PRO SEMIBOLD';
+}
+
+.div27 {
+    margin-top: -28px;
+    margin-left: 970px;
+    height: 40px;
+    width: 150px;
+    font-size: 14px;
+    font-family: 'MYRIAD-PRO SEMIBOLD';
+}
+
+.div28 {
+    border: 1px solid black;
+    height: 2px;
+    width: 833px;
+    margin-left: 270px;
+    margin-top: -57px;
+}
+
+.div29 {
+    margin-left: 1200px;
+    margin-top: -135px;
+}

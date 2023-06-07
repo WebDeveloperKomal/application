@@ -1,0 +1,627 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+/*  start overview */
+nav {
+    height: 760px;
+    width: 220px;
+    position: absolute;
+
+    background: white;
+
+    margin-left: 6px;
+    margin-top: 58px;
+
+
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+    position: absolute;
+
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    color: #36455f;
+
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* font-family: 'MYRIAD-PRO'; */
+    padding: 15px 15px;
+    height: 50px;
+    margin-left: -10px;
+    margin-top: 10px;
+    transition: .1s ease;
+
+}
+
+nav ul li a:hover {
+    background: rgb(231, 240, 248);
+    color: #349753;
+    width: 200px;
+    margin-left: -25px;
+    border-radius: 12px;
+
+}
+
+/*  end overview */
+
+
+/* fees & payment dropdown */
+nav ul ul {
+    position: absolute;
+    left: 200px;
+
+    margin-top: -55px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    /* font-family: 'MYRIAD-SEMIBOLD'; */
+    display: none;
+    /* background: #3BB161; */
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+
+
+}
+
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+
+nav ul .dropdown:hover ul {
+    display: initial;
+
+}
+
+/* end fees & payment  */
+
+
+
+/* start tax challan  */
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+
+    margin-top: 100px;
+    /* font-family: 'MYRIAD-SEMIBOLD'; */
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    /* background: rgba(73, 75, 73, 0.918); */
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown5 {
+    position: relative;
+}
+
+nav ul .dropdown5:hover ul {
+    display: initial;
+}
+
+/* end tax challan */
+
+/* start document */
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    color: #42526E;
+    margin-top: -200px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    /* background: rgba(232, 247, 234, 0.918); */
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown2 {
+    position: relative;
+}
+
+nav ul .dropdown2:hover ul {
+    display: initial;
+}
+
+/* end document */
+
+
+
+/* start acknowlegemnt */
+
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    /* color: #004C8F; */
+    margin-top: -200px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    /* background: rgba(232, 247, 234, 0.918); */
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown1 {
+    position: relative;
+}
+
+nav ul .dropdown1:hover ul {
+    display: initial;
+}
+
+/* end acknowlegdement */
+
+
+/* start compliance */
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    /* color: #42526E; */
+    margin-top: -200px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    /* background: rgba(232, 247, 234, 0.918); */
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown3 {
+    position: relative;
+}
+
+nav ul .dropdown3:hover ul {
+    display: initial;
+}
+
+/* end compliance */
+
+
+/* start account */
+
+
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    /* color: #42526E; */
+    margin-top: -80px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    /* background: rgba(232, 247, 234, 0.918); */
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown4 {
+    position: relative;
+}
+
+nav ul .dropdown4:hover ul {
+    display: initial;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+/* end account */
+
+
+
+
+nav ul ul {
+    position: absolute;
+    left: 200px;
+    color: #42526E;
+    margin-top: -80px;
+    margin-left: -13px;
+    font-size: 15px;
+    width: 230px;
+    display: none;
+    background: rgba(232, 247, 234, 0.918);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul ul span {
+
+    right: 50px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown4 {
+    position: relative;
+}
+
+nav ul .dropdown4:hover ul {
+    display: initial;
+}
+
+
+
+/* end account */
+
+
+
+body {
+    background-color: #E6E6E6;
+
+
+
+}
+
+.div1 {
+    background-color: #3BB161;
+    height: 85px;
+    width: 1385px;
+}
+
+.div2 {
+    margin-top: -110px;
+    margin-left: 30px;
+}
+
+.div20 input {
+    height: 35px;
+    width: 210px;
+    margin-top: -77px;
+    margin-left: 1000px;
+    /* opacity: 0.3; */
+    font-family: 'MYRIAD PRO';
+    position: absolute;
+    border-radius: 8px 8px 8px 8px;
+    border: none;
+    background-color: rgb(30, 119, 27);
+    color: white;
+    font-size: 14px;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+.div3 h6 {
+    height: 30px;
+    width: 40px;
+    color: white;
+    margin-left: 1253px;
+    margin-top: -69px;
+    position: absolute;
+    font-size: 14px;
+}
+
+.div4 h5 {
+    margin-left: 1293px;
+    margin-top: -76px;
+    color: white;
+    position: absolute;
+
+
+
+}
+
+.div27 {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 1243px;
+    /* color: black; */
+    /* position: absolute; */
+    margin-top: -78px;
+    border: 1px solid black;
+    background-color: rgb(30, 119, 27);
+    border: none;
+
+}
+
+.div28 {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 1285px;
+    margin-top: -36px;
+    border: 1px solid black;
+    background-color: rgb(30, 119, 27);
+    border: none;
+}
+
+.div29 {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: red;
+    border: none;
+    margin-left: 1267px;
+    margin-top: -36px;
+}
+
+.div101 h6 {
+    margin-left: 1330px;
+    margin-top: 1px;
+    position: absolute;
+    color: white;
+}
+
+
+
+
+/*  */
+
+.div7 {
+    margin-left: 270px;
+    margin-top: 80px;
+    color: #101010;
+}
+
+.div8 {
+    background-color: white;
+    width: 1050px;
+    height: 250px;
+    margin-left: 270px;
+    margin-top: 30px;
+    border-radius: 23px;
+}
+
+/*  */
+.div9 {
+    margin-left: 300px;
+    margin-top: -50px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 43px;
+    width: 43px;
+    margin-top: 160px;
+    position: absolute;
+}
+
+.div30 h4 {
+    color: white;
+    margin-left: 310px;
+    margin-top: 166px;
+    position: absolute;
+}
+
+
+.div10 {
+    margin-left: 357px;
+    margin-top: -220px;
+    color: #42526E;
+}
+
+/*  */
+
+.div11 {
+    margin-left: 300px;
+    margin-top: 236px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 43px;
+    width: 43px;
+    position: absolute;
+}
+
+.div31 h4 {
+    color: white;
+    margin-left: 310px;
+    margin-top: 241px;
+    position: absolute;
+}
+
+.div12 {
+    margin-left: 357px;
+    margin-top: 60px;
+    color: #42526E;
+}
+
+/*  */
+
+.div13 {
+    margin-left: 300px;
+    margin-top: 317px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 43px;
+    width: 43px;
+    position: absolute;
+}
+
+.div32 h4 {
+    color: white;
+    margin-left: 310px;
+    margin-top: 323px;
+    position: absolute;
+}
+
+.div14 {
+    margin-left: 357px;
+    margin-top: 60px;
+    color: #42526E;
+}
+
+/*  */
+
+.div15 {
+    margin-left: 700px;
+    margin-top: -195px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 43px;
+    width: 43px;
+    position: absolute;
+}
+
+.div33 h4 {
+    color: white;
+    margin-left: 708px;
+    margin-top: -190px;
+    position: absolute;
+}
+
+.div16 {
+    margin-left: 760px;
+    margin-top: -187px;
+    color: #42526E;
+}
+
+/*  */
+
+.div17 {
+    margin-left: 700px;
+    margin-top: 39px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 43px;
+    width: 43px;
+    position: absolute;
+}
+
+.div34 h4 {
+    color: white;
+    margin-left: 709px;
+    margin-top: 45px;
+    position: absolute;
+}
+
+.div18 {
+    margin-left: 760px;
+    margin-top: 57px;
+    color: #42526E;
+}
+
+/*  */
+
+.div19 {
+    margin-left: 1030px;
+    margin-top: -110px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 43px;
+    width: 43px;
+    position: absolute;
+}
+
+.div35 h4 {
+    color: white;
+    margin-left: 1040px;
+    margin-top: -105px;
+    position: absolute;
+}
+
+.div21 {
+    margin-left: 1090px;
+    margin-top: -100px;
+    color: #42526E;
+}
+
+/* */
+
+.div22 {
+    margin-left: 1030px;
+    margin-top: 37px;
+    background-color: #3BB161;
+    border-radius: 23px;
+    height: 43px;
+    width: 43px;
+    position: absolute;
+}
+
+
+.div36 h4 {
+    color: white;
+    margin-left: 1040px;
+    margin-top: 41px;
+    position: absolute;
+}
+
+
+.div23 {
+    margin-left: 1090px;
+    margin-top: 52px;
+    color: #42526E;
+}
+
+
+.div24 {
+    background-color: white;
+    margin-left: 270px;
+    height: 400px;
+    width: 1050px;
+    margin-top: 150px;
+    border-radius: 23px;
+}
+
+.div25 {
+    margin-left: 300px;
+    margin-top: -370px;
+}
+
+.div26 {
+    margin-left: 385px;
+    margin-top: -30px;
+}
