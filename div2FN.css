@@ -1,0 +1,1278 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Myriad Pro; */
+    /* font-family: "Myriad pro Semibold"; */
+    font-size: 14px;
+}
+
+/* nav css */
+.nav {
+    background-color: #3BB161;
+    height: 70px;
+}
+
+.logo {
+    position: absolute;
+    height: 115px;
+    margin-top: -11px;
+    padding: 0px 10px;
+}
+
+
+.div1 input[type=search] {
+    width: 220px;
+    padding: 5px 0px 5px 33px;
+    margin-left: 925px;
+    margin-top: 18px;
+    border-radius: 7px;
+    border: #3e7e52;
+    color: white;
+    background-color: #3e7e52;
+}
+
+.div1 ::placeholder {
+    color: white;
+}
+
+.bi-search {
+    margin-left: -208px;
+    margin-top: -4px;
+    color: white;
+}
+
+.sub-nav {
+    background-color: #3e7e52;
+    margin-left: 1180px;
+    width: 40px;
+    height: 40px;
+    padding: 6px 5px;
+    border-radius: 200px;
+    margin-top: -35px;
+}
+
+.div-cal {
+    background-color: red;
+    width: 8px;
+    height: 8px;
+    border-radius: 30px;
+    margin-top: -30px;
+    margin-left: -10px;
+}
+
+.bi-bell-fill {
+    color: white;
+    padding-left: 8px;
+    margin-top: 3px;
+
+}
+
+.sub-nav1 {
+    background-color: #3e7e52;
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
+    padding: 7px 5px;
+    border-radius: 200px;
+    margin-top: -35px;
+}
+
+.bi-person-fill {
+    color: white;
+    margin-left: 2px;
+}
+
+
+.bi-chevron-down {
+    margin-top: -50px;
+    color: white;
+}
+
+
+/* **** Nav Css End ****** */
+.main-div {
+    background-color: #E6E6E6;
+    width: 100%;
+    margin-top: -700px;
+    height: 700px;
+}
+
+
+/* <!-- ********* 2ND DIV ************* --> */
+
+.div2 {
+    /* font-family: "Myriad Pro"; */
+    position: relative;
+    background-color: #ffffff;
+    margin-left: 0PX;
+    margin-top: -14px;
+    /* color: #36455f; */
+    width: 210px;
+    height: 700px;
+    font-size: 14px;
+}
+
+.div2 ul a {
+    color: #36455f;
+    text-decoration: none;
+}
+
+/* .div2 ul a:hover{
+    font-weight: 700;
+} */
+
+
+/* ********** Overview *********** */
+
+
+.kp span {
+    /* background-color: #dce8f1;
+    color: #3BB161; */
+    list-style: none;
+    position: absolute;
+    border-radius: 8px;
+    padding: 15px 0px 0px 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 180px;
+    height: 55px;
+    text-decoration: none;
+}
+
+
+.kp span:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+    /* height: 50px; */
+}
+
+
+.bi-house-fill {
+    margin-top: -3px;
+    position: absolute;
+    margin-left: -28px;
+}
+
+
+/* ********** Overview End *********** */
+
+/* *********** Fees & Payment ******** */
+
+
+.kp1 {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 100px;
+    height: 2px;
+    width: 50px;
+}
+
+
+.kp1 p {
+    /* background-color: rgb(231, 240, 248);
+    color: #3BB161; */
+    font-size: 14px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 15px 0px 0px 40px;
+    margin-left: -15px;
+    margin-top: -2px;
+    width: 180px;
+    height: 55px;
+}
+
+
+.kp1 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+}
+
+.bi-wallet-fill {
+    margin-top: 0px;
+    position: absolute;
+    margin-left: -30px;
+}
+
+.kp1 .li2 ul {
+    margin-top: -78px;
+    margin-left: 180px;
+}
+
+.kp1 .li2 {
+    margin-top: -21px;
+}
+
+
+
+.div2 .kp1 .li2 .item .menu-btn {
+    display: block;
+    /* color: #fff; */
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    padding: 0px 20px;
+    top: 30px;
+    transition: 0.3s;
+    transition-property: color;
+}
+
+.div2 .kp1 .li2 .item .menu-btn:hover {
+    color: #01b83b;
+}
+
+.div2 .kp1 .li2 .item .menu-btn .bi-caret-down-fill {
+    float: right;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.div2 .kp1 .li2 .item .sub-menu {
+    /* background-color: #dce8f1; */
+    font-family: "Myriad Pro";
+    /* overflow: hidden; */
+    transition: 0.3s;
+    max-height: 0px;
+    width: 194px;
+    margin-left: 2px;
+    transition-property: background, max-height;
+}
+
+.div2 .kp1 .li2 .item .sub-menu a {
+    display: block;
+    position: relative;
+    padding: 0px 20px;
+    top: 40px;
+    /* line-height: 25px; */
+    transition: 0.03s;
+    transition-property: background;
+}
+
+.div2 .kp1 .li2 .item .sub-menu span:hover {
+    color: #01b83b;
+}
+
+.div2 .kp1 .li2 .item:target .sub-menu {
+    max-height: 500px;
+}
+
+.kp1 .sub-menu hr {
+    margin-top: 50px;
+}
+
+/* *********** Fees & Payment End ******** */
+
+/* *********** Tax Challan **************** */
+
+.kp2 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.kp2 p {
+    /* background-color: rgb(231, 240, 248);
+    color: #3BB161; */
+    font-size: 14px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 15px 0px 0px 40px;
+    margin-left: -13px;
+    margin-top: -2px;
+    width: 180px;
+    height: 55px;
+    text-decoration: none;
+}
+
+
+.kp2 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+}
+
+.bi-calendar2-range-fill {
+    margin-top: -px;
+    position: absolute;
+    margin-left: -28px;
+}
+
+.kp2 .li6 ul {
+    margin-top: -136px;
+    margin-left: 182px;
+}
+
+.kp2 .li6 {
+    margin-left: -22px;
+    margin-top: -14px;
+}
+
+
+.div2 .kp2 .li6 .item .menu-btn1,
+.div2 .kp2 .li6 .item .menu-btn2,
+.div2 .kp2 .li6 .item .menu-btn3 {
+    display: block;
+    /* color: #fff; */
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    padding: 20px 20px;
+    top: 20px;
+    transition: 0.3s;
+    transition-property: color;
+}
+
+.div2 .kp2 .li6 .item .menu-btn1:hover,
+.div2 .kp2 .li6 .item .menu-btn2:hover,
+.div2 .kp2 .li6 .item .menu-btn3:hover {
+    color: #01b83b;
+}
+
+.div2 .kp2 .li6 .item .menu-btn1 .bi-caret-down-fill,
+.div2 .kp2 .li6 .item .menu-btn2 .bi-caret-down-fill {
+    float: right;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.div2 .kp2 .li6 .item .sub-menu1,
+.div2 .kp2 .li6 .item .sub-menu2 {
+    /* background-color: #dce8f1; */
+    font-family: "Myriad Pro";
+    /* overflow: hidden; */
+    transition: 0.3s;
+    max-height: 0px;
+    width: 194px;
+    margin-left: 2px;
+    transition-property: background, max-height;
+}
+
+.div2 .kp2 .li6 .item .sub-menu1 a,
+.div2 .kp2 .li6 .item .sub-menu2 a {
+    display: block;
+    position: relative;
+    padding: 0px 20px;
+    top: 10px;
+    transition: 0.03s;
+    transition-property: background;
+}
+
+.div2 .kp2 .li6 .item .sub-menu1 span:hover,
+.div2 .kp2 .li6 .item .sub-menu2 span:hover {
+    color: #01b83b;
+}
+
+.div2 .kp2 .li6 .item:target .sub-menu1 {
+    max-height: 500px;
+}
+
+
+
+/* *********** Tax Challan End **************** */
+
+/* ********  Document ************ */
+.kp3 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 210px;
+    height: 20px;
+    width: 50px;
+}
+
+.kp3 p {
+    /* background-color: rgb(231, 240, 248);
+    color: #3BB161; */
+    font-size: 14px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 15px 0px 0px 40px;
+    margin-left: -13px;
+    margin-top: 0px;
+    width: 180px;
+    height: 55px;
+    text-decoration: none;
+}
+
+
+.kp3 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+}
+
+.bi-file-earmark-fill {
+    margin-top: -0px;
+    position: absolute;
+    margin-left: -28px;
+}
+
+.kp3 .li7 ul {
+    margin-top: -190px;
+    margin-left: 183px;
+}
+
+.kp3 .li7 {
+    margin-left: -22px;
+}
+
+.kp3 ul .Doc1 {
+    display: block;
+    /* color: #fff; */
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* padding: 12px 20px; */
+}
+
+.kp3 .li7 .Doc1:hover {
+    color: #01b83b;
+}
+
+
+/* ********  Document End ************ */
+
+/* *********Acknowledgement******** */
+.kp4 {
+    position: absolute;
+    margin-left: 30px;
+    /* background-color: red; */
+    width: 18px;
+    height: 5px;
+    margin-top: 270px;
+}
+
+
+.kp4 p {
+    /* background-color: rgb(231, 240, 248);
+    color: #3BB161; */
+    font-size: 14px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 15px 0px 0px 40px;
+    margin-left: -15px;
+    margin-top: -3px;
+    width: 180px;
+    height: 55px;
+    text-decoration: none;
+}
+
+.bi-file-earmark-check-fill {
+    margin-top: -3px;
+    position: absolute;
+    margin-left: -28px;
+}
+
+.kp4 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+}
+
+
+.kp4 .li8 ul {
+    margin-top: -250px;
+    margin-left: 181px;
+}
+
+.kp4 ul .Ack1 {
+    display: block;
+    /* color: #fff; */
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    /* top: 15px; */
+}
+
+.kp4 ul .Ack2 {
+    display: block;
+    /* color: #fff; */
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    top: 15px;
+}
+
+.kp4 ul .item .sub-menu1 {
+    top: 50px;
+    margin-top: 20px;
+}
+
+.kp4 .li8 .Ack1:hover,
+.kp4 .li8 .Ack2:hover {
+    color: #01b83b;
+}
+
+.div2 .kp4 .li8 .item .Ack2 .bi-caret-down-fill {
+    float: right;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.div2 .kp4 .li8 .item .sub-menu1 {
+    /* background-color: #dce8f1; */
+    font-family: "Myriad Pro";
+    /* overflow: hidden; */
+    transition: 0.3s;
+    max-height: 0px;
+    width: 194px;
+    margin-left: 2px;
+
+    transition-property: background, max-height;
+}
+
+.div2 .kp4 .li8 .item .sub-menu1 a {
+    display: block;
+    position: relative;
+    padding: 0px 20px;
+    /* line-height: 25px; */
+    transition: 0.03s;
+    transition-property: background;
+}
+
+.div2 .kp4 .li8 .item .sub-menu1 span:hover {
+    color: #01b83b;
+}
+
+
+
+/* ********* Acknowledgement End ******** */
+
+/* ********Insure & Invest*********** */
+.kp5 {
+    position: absolute;
+    margin-left: 30px;
+    /* background-color: red; */
+    width: 18px;
+    height: 5px;
+    margin-top: 328px;
+}
+
+.kp5 p {
+    /* background-color: rgb(231, 240, 248);
+    color: #3BB161; */
+    font-size: 14px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 15px 0px 0px 40px;
+    margin-left: -15px;
+    margin-top: -4px;
+    width: 180px;
+    height: 55px;
+    text-decoration: none;
+    transition: .1s ease;
+}
+
+.bi-patch-check-fill {
+    margin-top: 0px;
+    position: absolute;
+    margin-left: -30px;
+}
+
+.kp5 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+    transition: .1s ease;
+}
+
+.kp5 .li9 ul {
+    margin-top: -308px;
+    margin-left: 180px;
+}
+
+.kp5 ul .Invest {
+    display: block;
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    top: 15px;
+}
+
+.kp5 ul .item .sub-menu1 {
+    top: 50px;
+    margin-top: 20px;
+}
+
+.kp5 .li9 .Invest:hover,
+.kp5 .li9 .Invest1:hover {
+    color: #01b83b;
+}
+
+.div2 .kp5 .li9 .item .Invest .bi-caret-down-fill {
+    float: right;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.div2 .kp5 .li9 .item .sub-menu1 {
+    font-family: "Myriad Pro";
+    transition: 0.3s;
+    max-height: 0px;
+    width: 194px;
+    margin-left: 2px;
+    transition-property: background, max-height;
+}
+
+.div2 .kp5 .li9 .item .sub-menu1 a {
+    display: block;
+    position: relative;
+    padding: 0px 20px;
+    /* line-height: 25px; */
+    transition: 0.03s;
+    transition-property: background;
+}
+
+.div2 .kp5 .li9 .item .sub-menu1 span:hover {
+    color: #01b83b;
+}
+
+.kp5 .li9 .Invest1 {
+    display: block;
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+
+
+/* ******** Insure & Invest End *********** */
+
+/* *********** My Account ********* */
+.kp6 {
+    position: absolute;
+    margin-left: 30px;
+    /* background-color: red; */
+    width: 18px;
+    height: 5px;
+    margin-top: 386px;
+}
+
+.kp6 p {
+    /* background-color: rgb(231, 240, 248);
+    color: #3BB161; */
+    font-size: 14px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 17px 0px 0px 40px;
+    margin-left: -15px;
+    margin-top: -4px;
+    width: 180px;
+    height: 55px;
+    text-decoration: none;
+}
+
+.bi-person-square {
+    margin-top: 2px;
+    position: absolute;
+    margin-left: -30px;
+}
+
+.kp6 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+}
+
+.kp6 .li10 ul {
+    margin-top: -367px;
+    margin-left: 180px;
+}
+
+
+.kp6 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+    transition: .1s ease;
+}
+
+.kp6 .li10 ul {
+    margin-top: -367px;
+    margin-left: 180px;
+}
+
+.kp6 ul .Acc {
+    display: block;
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    top: 15px;
+}
+
+.kp6 ul .item .sub-menu1 {
+    top: 50px;
+    margin-top: 20px;
+}
+
+.kp6 .li10 .Acc:hover {
+    color: #01b83b;
+}
+
+.div2 .kp6 .li10 .item .Acc .bi-caret-down-fill {
+    float: right;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.div2 .kp6 .li10 .item .sub-menu1 {
+    font-family: "Myriad Pro";
+    transition: 0.3s;
+    max-height: 0px;
+    width: 194px;
+    margin-left: 2px;
+    transition-property: background, max-height;
+}
+
+.div2 .kp6 .li10 .item .sub-menu1 a {
+    display: block;
+    position: relative;
+    padding: 0px 20px;
+    /* line-height: 25px; */
+    transition: 0.03s;
+    transition-property: background;
+}
+
+.div2 .kp6 .li10 .item .sub-menu1 span:hover {
+    color: #01b83b;
+}
+
+.kp6 .li10 .Invest1 {
+    display: block;
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+/* *********** My Account End ********* */
+
+.div2 ul {
+    list-style: none;
+}
+
+.div2 ul li {
+    width: 182px;
+    height: 46px;
+    margin-top: -19px;
+}
+
+.div2 ul ul {
+    position: absolute;
+    display: none;
+    height: 700px;
+    width: 200px;
+    font-size: 14px;
+    background-color: rgb(214, 214, 214);
+    margin-left: 143px;
+    margin-top: -100px;
+}
+
+
+
+/* ************ FN **************** */
+
+.div2 ul li:hover>ul {
+    display: block;
+
+}
+
+.div1 ul ul {
+    display: none;
+}
+
+#opensidebarMenu,
+.sidebarIconToggle,
+.top,
+.middle,
+.bottom {
+    display: none;
+}
+
+
+.sidebarIconToggle {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    /* background-color: #000000; */
+    top: 32px;
+    left: 364px;
+    cursor: pointer;
+}
+
+#opensidebarMenu:checked~.div2 {
+    transform: translateX(0px);
+}
+
+.spinner {
+    height: 3px;
+    background-color: black;
+    transition: all 0.03s;
+}
+
+.spinner.middle,
+.spinner.bottom {
+    margin-top: 3px;
+}
+
+#opensidebarMenu:checked~.sidebarIconToggle>.spinner.middle {
+    opacity: 0;
+}
+
+#opensidebarMenu:checked~.sidebarIconToggle>.spinner.top {
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+
+#opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+
+/* <!--****** 2nd Div End **********--> */
+
+
+/* *********Last Div start  *********** */
+.last-div {
+    background-color: rgb(204, 204, 204);
+    font-family: "Myriad Pro";
+    text-align: center;
+    padding: 10px 0px;
+    height: 40px;
+    margin-top: 0px;
+}
+
+/* *********Last Div End  *********** */
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        width: 768px;
+    }
+
+    .div1 input[type=search] {
+        margin-left: 401px;
+    }
+
+    .bi-search {
+        margin-left: 412px;
+        margin-top: -54px;
+    }
+
+    .sub-nav {
+        margin-left: 631px;
+        margin-top: -55px;
+    }
+
+    .sub-nav1 {
+        margin-top: -54px;
+    }
+
+    .div-cal {
+        margin-top: -51px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -93px;
+        color: white;
+        margin-left: 713px;
+    }
+
+    .main-div {
+        width: 768px;
+    }
+
+
+    .last-div {
+        width: 768px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav {
+        width: 576px;
+    }
+
+    .div1 input[type=search] {
+        margin-left: 270px;
+        width: 170px;
+    }
+
+    .bi-search {
+        margin-left: 281px;
+    }
+
+    .sub-nav {
+        margin-left: 446px;
+        margin-top: -57px;
+    }
+
+    .sub-nav1 {
+        margin-left: 6px;
+        margin-top: -57px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -94px;
+        color: white;
+        margin-left: 526px;
+    }
+
+    .div2 {
+        margin-left: -10PX;
+        width: 182px;
+    }
+
+    .div2 ul ul {
+        width: 187px;
+    }
+
+    .kp1 .li2 ul {
+        margin-top: -79px;
+        margin-left: 153px;
+    }
+
+    .kp2 .li6 ul {
+        margin-top: -136px;
+        margin-left: 154px;
+    }
+
+    .kp3 .li7 ul {
+        margin-top: -191px;
+        margin-left: 154px;
+    }
+
+    .kp4 .li8 ul {
+        margin-top: -251px;
+        margin-left: 153px;
+    }
+
+    .kp5 .li9 ul {
+        margin-top: -309px;
+        margin-left: 152px;
+    }
+
+    .kp6 .li10 ul {
+        margin-top: -367px;
+        margin-left: 153px;
+    }
+
+    .main-div {
+        width: 576px;
+    }
+
+
+
+    .last-div {
+        width: 576px;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+
+    .nav {
+        width: 425px;
+        height: 93px;
+    }
+
+    .logo {
+        position: absolute;
+        height: 103px;
+        margin-top: -5px;
+        padding: 0px 10px;
+    }
+
+    .div1 input[type=search] {
+        margin-left: 237px;
+        width: 170px;
+    }
+
+    .bi-search {
+        margin-left: 248px;
+    }
+
+    .sub-nav {
+        margin-left: 251px;
+        margin-top: -16px;
+        width: 32px;
+        height: 29px;
+    }
+
+    .bi-bell-fill {
+        padding-left: 9px;
+        margin-left: -4px;
+        margin-top: -8px;
+    }
+
+    .div-cal {
+        margin-top: -17px;
+        width: 5px;
+        height: 6px;
+    }
+
+    .sub-nav1 {
+        margin-left: 295px;
+        margin-top: -29px;
+        width: 32px;
+        height: 29px;
+    }
+
+    .bi-person-fill {
+        color: white;
+        margin-left: 3px;
+        width: 17px;
+        height: 16px;
+        margin-top: -11px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -51px;
+        margin-left: 328px;
+    }
+
+    .sidebarIconToggle {
+        top: 60px;
+        left: 369px;
+        width: 18px;
+    }
+
+
+
+    /* .nav {
+        width: 425px;
+        height: 77px;
+    }
+
+    .logo {
+        position: absolute;
+        height: 87px;
+        width: 128px;
+        margin-top: -5px;
+    }
+
+    .div1 input[type=search] {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .spinner {
+        height: 5px;
+    }
+
+  
+    .sidebarIconToggle {
+        top: 28px;
+        left: 352px;
+        width: 24px;
+    }   
+    
+       #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+        transform: rotate(-135deg);
+        margin-top: -12px;
+    }
+    
+    */
+
+
+    .div2 {
+        transform: translateX(-210px);
+        transition: transform 250ms ease-in-out
+    }
+
+
+
+    .sidebarIconToggle,
+    .top,
+    .middle,
+    .bottom {
+        display: block;
+    }
+
+    .main-div {
+        width: 425px;
+        height: 700px;
+        margin-top: -700px;
+    }
+
+    .last-div {
+        width: 425px;
+        margin-top: 0px;
+    }
+
+
+}
+
+
+
+@media (max-width: 375px) {
+
+    /* .div2 {
+        display: none;
+    } */
+
+    .div1 input[type=search] {
+        display: none;
+    }
+    .bi-search {
+        display: none;
+    }
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sec {
+        display: none;
+    }
+
+
+    .nav {
+        width: 375px;
+    }
+
+    /* 
+    .logo {
+        height: 114px;
+        margin-top: -10px;
+        margin-left: -5px;
+        width: 133px;
+    }
+
+    .sec {
+        margin-left: 159px;
+        width: 129px;
+    }
+
+    .bi-search {
+        margin-left: 261px;
+    }
+
+    .bi-chevron-down {
+        margin-top: 30px;
+        color: white;
+        margin-left: -3px;
+    }
+
+    .sub-nav {
+        margin-left: 295px;
+    } */
+
+    .main-div {
+        width: 375px;
+    }
+
+    .spinner {
+        height: 5px;
+    }
+
+
+    .sidebarIconToggle {
+        top: 37px;
+        left: 319px;
+        width: 24px;
+    }
+    
+       #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+        transform: rotate(-135deg);
+        margin-top: -13px;
+    }
+
+    .last-div {
+        width: 375px;
+        margin-top: px;
+    }
+    
+}
+
+
+@media (max-width: 320px) {
+
+    /* .div2 {
+        display: none;
+    } */
+
+    .bi-search {
+        display: none;
+    }
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sec {
+        display: none;
+    }
+
+
+    .nav {
+        width: 320px;
+    }
+
+    /* 
+    .logo {
+        height: 114px;
+        margin-top: -10px;
+        margin-left: -5px;
+        width: 133px;
+    }
+
+    .sec {
+        margin-left: 159px;
+        width: 129px;
+    }
+
+    .bi-search {
+        margin-left: 261px;
+    }
+
+    .bi-chevron-down {
+        margin-top: 30px;
+        color: white;
+        margin-left: -3px;
+    }
+
+    .sub-nav {
+        margin-left: 295px;
+    } */
+
+    .main-div {
+        width: 320px;
+    }
+
+
+    .last-div {
+        width: 320px;
+    }
+
+}
