@@ -601,62 +601,111 @@ body {
 
 
 @media only screen and (max-width:768px) {
-    .div20 {
-        height: 30px;
-        width: 230px;
-        margin-top: -77px;
-        margin-left: 456px;
-        background-color: #3BB161;
-    }
-
-    .div3 {
-        background-color: white;
-        border-radius: 170%;
-        padding: 10px;
-        height: 37px;
-        width: 40px;
-        margin-left: 676px;
-        margin-top: -38px;
-        background-color: #3BB161;
-        /* border: 1px solid black; */
-    }
-
-    .div4 {
-        margin-left: 722px;
-        margin-top: -32px;
-    }
-
     nav {
-        height: 700px;
+        height: 800px;
         width: 220px;
         position: absolute;
         background: white;
-        margin-left: -2px;
-        margin-top: 23px;
+        margin-left: -4px;
+        margin-top: 58px;
     }
 
     .div1 {
         background-color: #3BB161;
         height: 85px;
-        width: 771px;
+        width: 761px;
+    }
+
+    .div20 input {
+        height: 35px;
+        width: 210px;
+        margin-top: -77px;
+        margin-left: 428px;
+        /* opacity: 0.3; */
+        font-family: 'MYRIAD PRO';
+        position: absolute;
+        border-radius: 8px 8px 8px 8px;
+        border: none;
+        background-color: rgb(30, 119, 27);
+        color: white;
+        font-size: 14px;
+    }
+
+    .div33 {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        margin-left: 648px;
+        /* color: black; */
+        /* position: absolute; */
+        margin-top: -78px;
+        border: 1px solid black;
+        background-color: rgb(30, 119, 27);
+        border: none;
+    }
+
+    .div34 {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        margin-left: 689px;
+        margin-top: -36px;
+        border: 1px solid black;
+        background-color: rgb(30, 119, 27);
+        border: none;
+    }
+
+    .div36 {
+        height: 7px;
+        width: 7px;
+        border-radius: 50%;
+        border: 1px solid black;
+        background-color: red;
+        border: none;
+        margin-left: 673px;
+        margin-top: -36px;
+    }
+
+    .div101 h6 {
+        margin-left: 731px;
+        margin-top: 1px;
+        position: absolute;
+        color: white;
+    }
+
+    .div3 h6 {
+        height: 30px;
+        width: 40px;
+        color: white;
+        margin-left: 659px;
+        margin-top: -69px;
+        position: absolute;
+        font-size: 14px;
+    }
+
+    .div4 h5 {
+        margin-left: 697px;
+        margin-top: -76px;
+        color: white;
+        position: absolute;
     }
 
     .div7 {
-        margin-left: 237px;
-        margin-top: 50px;
+        margin-left: 234px;
+        margin-top: 80px;
     }
 
     .div8 {
-        margin-left: 230px;
+        margin-left: 228px;
         height: 700px;
-        width: 534px;
+        width: 519px;
         background-color: white;
         margin-top: 40px;
         border-radius: 25px;
     }
 
     .div9 {
-        margin-left: 266px;
+        margin-left: 254px;
         margin-top: -680px;
     }
 
@@ -664,192 +713,164 @@ body {
         height: 37px;
         width: 170px;
         position: absolute;
-        margin-left: 260px;
-        margin-top: 20px;
+        margin-left: 250px;
+        margin-top: 221px;
         text-align: center;
         border-radius: 14px 0px 0px 14px;
+        border: 1px solid;
     }
 
     .div10 {
-        margin-left: 309px;
-        margin-top: 27px;
+        margin-left: 292px;
+        margin-top: 227px;
         position: absolute;
         font-size: 14px;
+        color: #42526E;
     }
 
     #fname1 {
         height: 37px;
         width: 170px;
         position: absolute;
-        margin-left: 423px;
-        margin-top: 20px;
+        margin-left: 406px;
+        margin-top: 221px;
         text-align: center;
         border-radius: 0px 0px 0px 0px;
+        border: 1px solid;
     }
 
     .div11 {
-        margin-left: 475px;
-        margin-top: 27px;
+        margin-left: 453px;
+        margin-top: 228px;
         /* height: 30px; */
         /* width: 50px; */
         position: absolute;
         font-size: 14px;
+        color: #42526E;
     }
 
     #fname2 {
         height: 37px;
         width: 170px;
         position: absolute;
-        margin-left: 584px;
-        margin-top: 20px;
+        margin-left: 555px;
+        margin-top: 221px;
         text-align: center;
         border-radius: 0px 14px 14px 0px;
+        border: 1px solid;
     }
 
     .div12 {
-        margin-left: 627px;
-        margin-top: 27px;
+        margin-left: 597px;
+        margin-top: 227px;
         /* height: 30px; */
         /* width: 50px; */
         position: absolute;
         font-size: 14px;
+        color: #42526E;
     }
 
     #fname3 {
+        margin-left: 248px;
+        margin-top: 290px;
+        position: absolute;
+        width: 479px;
         height: 43px;
-        width: 493px;
-        position: absolute;
-        margin-left: 259px;
-        margin-top: 90px;
-        border-radius: 14px 14px 14px 14px;
-    }
-
-    .div15 h6 {
-        margin-left: 267px;
-        margin-top: 100px;
-        position: absolute;
-        font-size: 14px;
+        border-radius: 23px;
+        border: 1px solid;
     }
 
     #fname4 {
         height: 43px;
-        width: 493px;
+        width: 478px;
         position: absolute;
-        margin-left: 259px;
-        margin-top: 167px;
-        border-radius: 14px 14px 14px 14px;
-    }
-
-    .div16 h6 {
-        margin-left: 270px;
-        margin-top: 180px;
-        position: absolute;
-        font-size: 14px;
-    }
-
-    .div16 h5 {
-        margin-left: 714px;
-        margin-top: 175px;
-        position: absolute;
-        font-size: 20px;
+        margin-left: 247px;
+        margin-top: 360px;
+        border-radius: 23px;
+        border: 1px solid;
     }
 
     #fname5 {
         height: 43px;
-        width: 493px;
+        width: 479px;
         position: absolute;
-        margin-left: 260px;
-        margin-top: 240px;
-        border-radius: 14px 14px 14px 14px;
-    }
-
-    .div17 h6 {
-        margin-left: 268px;
-        margin-top: 250px;
-        position: absolute;
-        font-size: 14px;
-    }
-
-    .div17 h5 {
-        margin-left: 715px;
-        margin-top: 250px;
-        position: absolute;
-        font-size: 20px;
-    }
-
-    .div22 h6 {
-        margin-left: 265px;
-        margin-top: 300px;
-        font-size: 14px;
+        margin-left: 247px;
+        margin-top: 430px;
+        border-radius: 23px;
+        border: 1px solid;
     }
 
     #fname6 {
         height: 43px;
-        width: 493px;
+        width: 478px;
         position: absolute;
-        margin-left: 259px;
-        margin-top: 10px;
-        border-radius: 14px 14px 14px 14px;
-    }
-
-    .div18 h6 {
-        margin-left: 266px;
-        margin-top: 20px;
-        position: absolute;
-        font-size: 14px;
-    }
-
-    #fname7 {
-        height: 43px;
-        width: 493px;
-        position: absolute;
-        margin-left: 258px;
-        margin-top: 82px;
-        border-radius: 14px 14px 14px 14px;
-    }
-
-    .div19 h6 {
-        margin-left: 264px;
-        margin-top: 592px;
-        position: absolute;
-        font-size: 14px;
+        margin-left: 248px;
+        margin-top: 520px;
+        border-radius: 23px;
+        border: 1px solid;
     }
 
     #fname8 {
         height: 43px;
-        width: 493px;
+        width: 478px;
         position: absolute;
-        margin-left: 259px;
+        margin-left: 248px;
         margin-top: 660px;
-        border-radius: 14px 14px 14px 14px;
-    }
-
-    .div21 h6 {
-        margin-left: 267px;
-        margin-top: 670px;
-        position: absolute;
+        border-radius: 23px;
+        border: 1px solid;
     }
 
     .div21 h5 {
-        margin-left: 714px;
-        margin-top: 670px;
+        margin-left: 686px;
+        margin-top: 666px;
         position: absolute;
+    }
+
+    #fname7 {
+        height: 43px;
+        width: 477px;
+        position: absolute;
+        margin-left: 246px;
+        margin-top: 590px;
+        border-radius: 23px;
+        border: 1px solid;
+    }
+
+    .div17 h5 {
+        margin-left: 684px;
+        margin-top: 438px;
+        position: absolute;
+        font-size: 20px;
+    }
+
+    .div16 h5 {
+        margin-left: 682px;
+        margin-top: 370px;
+        position: absolute;
+        font-size: 20px;
     }
 
     .div13 .btn-success {
         background-color: #004C8F;
         width: 140px;
-        margin-left: 262px;
-        margin-top: 760px;
-        border-radius: 14px 14px 14px 14px;
+        margin-left: 252px;
+        margin-top: 260px;
+        border-radius: 23px;
     }
 
     .div14 .btn-success {
         background-color: #004C8F;
         width: 140px;
-        margin-left: 453px;
+        margin-left: 408px;
         margin-top: -65px;
-        border-radius: 14px 14px 14px 14px;
+        border-radius: 23px;
+    }
+
+    .div22 h6 {
+        margin-left: 252px;
+        margin-top: 290px;
+        font-size: 14px;
+        color: #42526E;
     }
 }
 
@@ -858,288 +879,117 @@ body {
         display: none;
     }
 
-    .div20 {
+    .div1 {
+        background-color: #3BB161;
+        height: 101px;
+        width: 780px;
+    }
+
+    .div2 {
+        margin-top: -125px;
+        margin-left: 30px;
+    }
+
+    .div20,
+    .div3,
+    .div4,
+    .div33,
+    .div34,
+    .div36,
+    .div101 {
         display: none;
     }
 
-    .div3 {
-        display: none;
-    }
-
-    .div4 {
-        display: none;
+    .div7 h4 {
+        margin-left: -207px;
+        margin-top: 22px;
+        font-size: 29px;
     }
 
     .div7 {
-        margin-left: 45px;
-        margin-top: 24px;
-
-    }
-
-    .div7 h4 {
-        font-size: 22px;
+        margin-left: 234px;
+        margin-top: 35px;
     }
 
     .div8 {
-        margin-left: 39px;
-        height: 760px;
-        width: 706px;
+        margin-left: 32px;
+        height: 940px;
+        width: 689px;
         background-color: white;
         margin-top: 40px;
         border-radius: 25px;
     }
 
     .div9 {
-        margin-left: 101px;
-        margin-top: -729px;
+        margin-left: 75px;
+        margin-top: -846px;
     }
 
     .div9 h5 {
-        font-size: 22px;
+        font-size: 29px;
+    }
+
+    .div9 {
+        margin-left: 75px;
+        margin-top: -912px;
+    }
+
+    .foot {
+        display: none;
     }
 
     #fname {
-        height: 37px;
-        width: 213px;
+        height: 49px;
+        width: 208px;
         position: absolute;
-        margin-left: 99px;
-        margin-top: 20px;
+        margin-left: 75px;
+        margin-top: 221px;
         text-align: center;
         border-radius: 14px 0px 0px 14px;
+        border: 1px solid;
     }
 
     .div10 {
-        margin-left: 162px;
-        margin-top: 25px;
+        margin-left: 115px;
+        margin-top: 227px;
         position: absolute;
-        font-size: 16px;
+        font-size: 21px;
+        color: #42526E;
     }
 
     #fname1 {
-        height: 37px;
-        width: 188px;
+        height: 49px;
+        width: 203px;
         position: absolute;
-        margin-left: 310px;
-        margin-top: 20px;
+        margin-left: 281px;
+        margin-top: 221px;
         text-align: center;
         border-radius: 0px 0px 0px 0px;
+        border: 1px solid;
     }
 
     .div11 {
-        margin-left: 360px;
-        margin-top: 26px;
+        margin-left: 339px;
+        margin-top: 228px;
         /* height: 30px; */
         /* width: 50px; */
         position: absolute;
-        font-size: 16px;
+        font-size: 21px;
+        color: #42526E;
     }
 
     #fname2 {
-        height: 37px;
-        width: 190px;
+        height: 49px;
+        width: 214px;
         position: absolute;
-        margin-left: 492px;
-        margin-top: 20px;
+        margin-left: 483px;
+        margin-top: 221px;
         text-align: center;
         border-radius: 0px 14px 14px 0px;
+        border: 1px solid;
     }
 
-    .div12 {
-        margin-left: 522px;
-        margin-top: 27px;
-        /* height: 30px; */
-        /* width: 50px; */
-        position: absolute;
-        font-size: 16px;
-        display: inline;
-    }
-
-    #fname3 {
-        height: 43px;
-        width: 591px;
-        position: absolute;
-        margin-left: 97px;
-        margin-top: 90px;
-        border-radius: 14px 14px 14px 14px;
-    }
-
-    .div15 h6 {
-        margin-left: 102px;
-        margin-top: 100px;
-        position: absolute;
-        font-size: 18px;
-    }
-
-    #fname4 {
-        height: 43px;
-        width: 586px;
-        position: absolute;
-        margin-left: 98px;
-        margin-top: 167px;
-        border-radius: 14px 14px 14px 14px;
-    }
-
-    .div16 h6 {
-        margin-left: 112px;
-        margin-top: 177px;
-        position: absolute;
-        font-size: 18px;
-    }
-
-    .div16 h5 {
-        margin-left: 646px;
-        margin-top: 175px;
-        position: absolute;
-        font-size: 20px;
-    }
-
-    #fname5 {
-        height: 43px;
-        width: 583px;
-        position: absolute;
-        margin-left: 102px;
-        margin-top: 240px;
-        border-radius: 14px 14px 14px 14px;
-    }
-
-    .div17 h6 {
-        margin-left: 116px;
-        margin-top: 250px;
-        position: absolute;
-        font-size: 18px;
-    }
-
-    .div17 h5 {
-        margin-left: 646px;
-        margin-top: 250px;
-        position: absolute;
-        font-size: 20px;
-    }
-
-    .div22 h6 {
-        margin-left: 107px;
-        margin-top: 300px;
-        font-size: 15px;
-    }
-
-    #fname6 {
-        height: 43px;
-        width: 583px;
-        position: absolute;
-        margin-left: 103px;
-        margin-top: 10px;
-        border-radius: 14px 14px 14px 14px;
-    }
-
-    .div18 h6 {
-        margin-left: 121px;
-        margin-top: 20px;
-        position: absolute;
-        font-size: 18px;
-    }
-
-    #fname7 {
-        height: 43px;
-        width: 585px;
-        position: absolute;
-        margin-left: 101px;
-        margin-top: 82px;
-        border-radius: 14px 14px 14px 14px;
-    }
-
-    .div19 h6 {
-        margin-left: 118px;
-        margin-top: 592px;
-        position: absolute;
-        font-size: 18px;
-    }
-
-    #fname8 {
-        height: 43px;
-        width: 579px;
-        position: absolute;
-        margin-left: 104px;
-        margin-top: 660px;
-        border-radius: 14px 14px 14px 14px;
-    }
-
-    .div21 h6 {
-        margin-left: 121px;
-        margin-top: 670px;
-        position: absolute;
-        font-size: 18px;
-    }
-
-    .div21 h5 {
-        margin-left: 641px;
-        margin-top: 670px;
-        position: absolute;
-    }
-
-    .div13 .btn-success {
-        background-color: #004C8F;
-        width: 140px;
-        margin-left: 106px;
-        margin-top: 760px;
-        border-radius: 14px 14px 14px 14px;
-    }
-
-    .div14 .btn-success {
-        background-color: #004C8F;
-        width: 140px;
-        margin-left: 300px;
-        margin-top: -65px;
-        border-radius: 14px 14px 14px 14px;
-    }
-}
-
-@media only screen and (max-width:375px) {
-    .div8 {
-        margin-left: 39px;
-        height: 884px;
-        width: 706px;
-        background-color: white;
-        margin-top: 40px;
-        border-radius: 25px;
-    }
-
-    .div7 h4 {
-        font-size: 26px;
-    }
-
-    .div9 h5 {
-        font-size: 27px;
-    }
-
-    .div9 {
-        margin-left: 101px;
-        margin-top: -849px;
-    }
-
-    #fname {
-        height: 43px;
-        width: 213px;
-        position: absolute;
-        margin-left: 99px;
-        margin-top: 20px;
-        text-align: center;
-        border-radius: 14px 0px 0px 14px;
-    }
-
-    .div10 {
-        margin-left: 162px;
-        margin-top: 28px;
-        position: absolute;
-        font-size: 18px;
-    }
-
-    #fname1 {
-        height: 43px;
-        width: 188px;
-        position: absolute;
-        margin-left: 310px;
-        margin-top: 20px;
-        text-align: center;
-        border-radius: 0px 0px 0px 0px;
+    .div12{
+        width: 103px;
     }
 }
