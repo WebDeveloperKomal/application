@@ -293,7 +293,7 @@ body {
     margin-left: 20px;
 }
 
-.div20 input {
+.div3 input {
     height: 30px;
     width: 220px;
     margin-top: -43px;
@@ -314,7 +314,7 @@ body {
     color: white;
 }
 
-.div3 h6 {
+.div4 h6 {
     height: 30px;
     width: 40px;
     color: white;
@@ -324,7 +324,7 @@ body {
     font-size: 14px;
 }
 
-.div4 h5 {
+.div5 h5 {
     margin-left: 1230px;
     margin-top: -44px;
     color: white;
@@ -334,7 +334,7 @@ body {
 
 }
 
-.div21 {
+.div50 {
     height: 40px;
     width: 40px;
     /* border-radius: 50%; */
@@ -350,7 +350,7 @@ body {
 
 }
 
-.div22 {
+.div51 {
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -364,7 +364,7 @@ body {
     border: none;
 }
 
-.div23 {
+.div52 {
     height: 7px;
     width: 7px;
     border-radius: 50%;
@@ -386,106 +386,273 @@ body {
 
 /*  */
 
-.div10 h3 {
+.div10 {
     margin-left: 270px;
-    margin-top: 85px;
+    margin-top: 80px;
     color: #253858;
     font-size: 23px;
     font-family: 'MYRIAD PRO';
 }
 
-#fname {
-    width: 590px;
+.div10 h6 {
+    margin-left: -5px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div11 {
+    border: 1px solid black;
+    width: 230px;
+    height: 25px;
     margin-left: 270px;
-    height: 35px;
+    border-radius: 10px;
+}
+
+.div12 h6 {
+    margin-left: 280px;
+    margin-top: -22px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div13 {
+    border: 1px solid black;
+    width: 500px;
+    height: 24px;
+    margin-left: 520px;
+    margin-top: -28px;
+    border-radius: 10px;
+}
+
+.div14 h6 {
+    margin-left: 535px;
+    margin-top: -22px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div15 {
+    border: 1px solid black;
+    width: 230px;
+    height: 25px;
+    margin-left: 270px;
+    border-radius: 10px;
+    margin-top: 13px;
+}
+
+.div16 h6 {
+    margin-left: 280px;
+    margin-top: -22px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div17 {
+    border: 1px solid black;
+    width: 500px;
+    height: 25px;
+    margin-left: 520px;
+    margin-top: -30px;
+    border-radius: 10px;
+}
+
+.div18 h6 {
+    margin-left: 535px;
+    margin-top: -22px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div19 {
+    border: 1px solid black;
+    width: 230px;
+    height: 25px;
+    margin-left: 270px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.div20 h6 {
+    margin-left: 280px;
+    margin-top: -22px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div21 {
+    border: 1px solid black;
+    width: 500px;
+    height: 25px;
+    margin-left: 520px;
+    margin-top: -30px;
+    border-radius: 10px;
+}
+
+.div22 h6 {
+    margin-left: 535px;
+    margin-top: -20px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div23 {
+    border: 1px solid black;
+    width: 230px;
+    height: 25px;
+    margin-left: 270px;
+    border-radius: 10px;
+    margin-top: 13px;
+}
+
+.div24 h6 {
+    margin-left: 280px;
+    margin-top: -20px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div25 {
+    border: 1px solid black;
+    width: 500px;
+    height: 25px;
+    margin-left: 520px;
+    margin-top: -30px;
+    border-radius: 10px;
+}
+
+.div26 h6 {
+    margin-left: 535px;
+    margin-top: -20px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div27 {
+    border: 1px solid black;
+    width: 230px;
+    height: 25px;
+    margin-left: 270px;
+    border-radius: 10px;
+    margin-top: 13px;
+}
+
+.div28 h6 {
+    margin-left: 280px;
+    margin-top: -22px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div29 {
+    border: 1px solid black;
+    width: 500px;
+    height: 25px;
+    margin-left: 520px;
+    margin-top: -30px;
+    border-radius: 10px;
+}
+
+.div30 h6 {
+    margin-left: 535px;
+    margin-top: -20px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div31 {
+    border: 1px solid black;
+    width: 230px;
+    height: 25px;
+    margin-left: 270px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.div32 h6 {
+    margin-left: 280px;
+    margin-top: -22px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div33 {
+    border: 1px solid black;
+    width: 500px;
+    height: 25px;
+    margin-left: 520px;
+    margin-top: -30px;
+    border-radius: 10px;
+}
+
+.div34 h6 {
+    margin-left: 535px;
+    margin-top: -20px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div35 {
+    border: 1px solid black;
+    width: 230px;
+    height: 25px;
+    margin-left: 270px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.div36 h6 {
+    margin-left: 280px;
+    margin-top: -20px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div37 {
+    border: 1px solid black;
+    width: 500px;
+    height: 25px;
+    margin-left: 520px;
+    margin-top: -30px;
+    border-radius: 10px;
+}
+
+.div38 h6 {
+    margin-left: 535px;
+    margin-top: -20px;
+    font-size: 14px;
+    font-family: 'MYRIAD PRO';
+}
+
+.div39 {
+    margin-left: 280px;
     margin-top: 30px;
+    font-family: 'MYRIAD PRO';
+    font-size: 14px;
 }
 
-#fname::placeholder {
-    color: black;
+.div40 {
+    color: red;
+    margin-left: 505px;
+    margin-top: -27px;
+    font-family: 'MYRIAD PRO';
+    font-size: 14px;
 }
 
-.div11 h5 {
+.div41 {
+    margin-left: 280px;
+    margin-top: 10px;
+    font-family: 'MYRIAD PRO';
+    font-size: 14px;
+}
+
+.btn-success {
     margin-left: 270px;
     margin-top: 10px;
-    color: #253858;
+    height: 40px;
+    width: 170px;
     font-family: 'MYRIAD PRO';
-    font-size: 17px;
-}
-
-.div12 input {
-    width: 290px;
-    margin-left: 270px;
-    height: 35px;
-    font-size: 14px;
-    margin-top: -10px;
-}
-
-.div12 input::placeholder {
-    color: black;
-}
-
-.div13 input {
-    width: 290px;
-    margin-left: 568px;
-    height: 35px;
-    position: absolute;
-    margin-top: -35px;
     font-size: 14px;
 }
-
-.div13 input::placeholder {
-    color: black;
-}
-
-#birthday {
-    width: 290px;
-    margin-left: 270px;
-    height: 35px;
-    margin-top: 13px;
-    font-size: 14px;
-}
-
-#birthday::placeholder {
-    color: black;
-}
-
-.div15 input {
-    width: 290px;
-    margin-left: 270px;
-    height: 35px;
-    margin-top: 14px;
-    font-size: 14px;
-    /* position: absolute; */
-}
-
-.div15 input::placeholder {
-    color: black;
-}
-
-.div16 .btn-success {
-    margin-left: 270px;
-    margin-top: 70px;
-    height: 40px;
-    width: 170px;
-    font-size: 17px;
-}
-
-.div17 .btn-success {
-    margin-left: 500px;
-    margin-top: -67px;
-    height: 40px;
-    width: 170px;
-    font-size: 17px;
-    /* position: absolute; */
-}
-
-.div18 {
-    margin-top: -460px;
-    position: absolute;
-    margin-left: 1210px;
-}
-
 
 /* start footer */
 .last-div {
@@ -494,7 +661,7 @@ body {
     text-align: center;
     padding: 10px 0px;
     height: 40px;
-    margin-top: 217px;
+    margin-top: 165px;
 }
 
 /* end footer */

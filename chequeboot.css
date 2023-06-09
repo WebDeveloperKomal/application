@@ -15,8 +15,8 @@ nav {
 
     background: white;
 
-    margin-left: 8px;
-    margin-top: 58px;
+    margin-left: -10px;
+    margin-top: 50px;
 
 
 }
@@ -49,7 +49,7 @@ nav ul li a:hover {
     background: rgb(231, 240, 248);
     color: #3BB161;
     width: 200px;
-    margin-left: -25px;
+    margin-left: -20px;
     border-radius: 12px;
 
 }
@@ -284,29 +284,29 @@ body {
 
 .div1 {
     background-color: #3BB161;
-    height: 85px;
+    height: 70px;
     width: 1385px;
 }
 
 .div2 {
-    margin-top: -110px;
-    margin-left: 30px;
+    margin-top: -63px;
+    margin-left: 20px;
 }
 
 .div8 input {
-    height: 35px;
-    width: 210px;
-    margin-top: -77px;
-    margin-left: 1000px;
+    height: 30px;
+    width: 220px;
+    margin-top: -43px;
+    margin-left: 920px;
     /* opacity: 0.3; */
     font-family: 'MYRIAD PRO';
     position: absolute;
     border-radius: 8px 8px 8px 8px;
-    border: none;
-    background-color: rgb(30, 119, 27);
+    border: #3e7e52;
+
     color: white;
     font-size: 14px;
-
+    background-color: #3e7e52;
 }
 
 ::placeholder {
@@ -317,15 +317,15 @@ body {
     height: 30px;
     width: 40px;
     color: white;
-    margin-left: 1253px;
-    margin-top: -69px;
+    margin-left: 1183px;
+    margin-top: -38px;
     position: absolute;
     font-size: 14px;
 }
 
 .div4 h5 {
-    margin-left: 1293px;
-    margin-top: -76px;
+    margin-left: 1230px;
+    margin-top: -44px;
     color: white;
     position: absolute;
 
@@ -334,27 +334,31 @@ body {
 }
 
 .div11 {
-    height: 35px;
-    width: 35px;
-    border-radius: 50%;
-    margin-left: 1243px;
+    height: 40px;
+    width: 40px;
+    /* border-radius: 50%; */
+    margin-left: 1170px;
     /* color: black; */
     /* position: absolute; */
-    margin-top: -78px;
+    margin-top: -50px;
     border: 1px solid black;
-    background-color: rgb(30, 119, 27);
+    background-color: #3e7e52;
     border: none;
-
+    padding: 7px 5px;
+    border-radius: 200px;
 }
 
 .div12 {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
-    margin-left: 1285px;
-    margin-top: -36px;
+    margin-left: 1220px;
+    margin-top: -40px;
     border: 1px solid black;
-    background-color: rgb(30, 119, 27);
+    background-color: #3e7e52;
+    border: none;
+    padding: 7px 5px;
+    border-radius: 200px;
     border: none;
 }
 
@@ -365,12 +369,12 @@ body {
     border: 1px solid black;
     background-color: red;
     border: none;
-    margin-left: 1267px;
-    margin-top: -36px;
+    margin-left: 1200px;
+    margin-top: -38px;
 }
 
-.div101 h6 {
-    margin-left: 1330px;
+.div101 h5 {
+    margin-left: 1270px;
     margin-top: 1px;
     position: absolute;
     color: white;
@@ -417,3 +421,15 @@ tr {
     margin-top: -295px;
     margin-left: 1030px;
 }
+
+/* start footer */
+.last-div {
+    background-color: rgb(204, 204, 204);
+    font-family: "Myriad Pro";
+    text-align: center;
+    padding: 10px 0px;
+    height: 40px;
+    margin-top: 629px;
+}
+
+/* end footer */

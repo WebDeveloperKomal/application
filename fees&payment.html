@@ -24,12 +24,12 @@
     </div>
 
     <div class="div2">
-        <img src="promunim logo.jpg" alt="" height="125" width="132">
+        <img src="promunim logo1.jpg" alt="" height="55" width="115">
     </div>
 
 
     <div class="div20">
-        <input type="text" type="Search" placeholder="    Search">
+        <input type="text" type="Search" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search">
     </div>
 
 
@@ -61,76 +61,91 @@
 
     <!-- icon -->
     <div class="div101">
-        <h6><b><i class="bi bi-chevron-down"></i></b></h6>
-    </div>
-
-    <!--  -->
-    <input type="text" id="fname" name="fname">
-
-    <div class="div10">
-        <input type="radio" name="reason" value="Fit Description">&nbsp;&nbsp;Monthly
+        <h5><b><i class="bi bi-chevron-down"></i></b></h5>
     </div>
 
 
-    <!--  -->
-    <input type="text" id="fname1" name="fname1">
+    <!-- **************************************************************************** -->
+
+    <div class="div5">
+        <h5><b>Fees and Payments</b></h5>
+        <div class="sub-div10">
+            <h6>Fees</h6>
+            <form>
+                <input type="radio" id="month" name="Other" value="Monthly" class="redio" checked>
+                <label class="Label month" for="month">Monthly</label>
+
+                <input type="radio" id="Year" name="Other" value="Yearly" class="redio">
+                <label class="Label Year" for="Year">Yearly</label>
+
+                <input type="radio" id="Other" name="Other" value="Other" class="redio">
+                <label class="Label Other" for="Other">Other fees</label>
+            </form><br>
 
 
-    <div class="div11">
-        <input type="radio" name="reason" value="Fit Description">&nbsp;&nbsp;Yearly
+
+            <div class="Form1">
+                <input type="text" required="required">
+                <span>Transaction Reference Name</span>
+            </div>
+            <br>
+            <div class="Form1">
+                <input type="text" required="required">
+                <span>Account Number <p>*</p></span>
+            </div>
+            <br>
+            <div class="Form1">
+                <input type="text" required="required">
+                <span>Recipient</span>
+                <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-plus-lg" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+                    </svg>
+                </a>
+                <p id="p1"> Add Beneficiary</p>
+
+            </div>
+            <br>
+            <div class="Form1">
+                <input type="text" required="required">
+                <span>Amount</span>
+
+            </div>
+            <br>
+            <div class="Form1">
+                <input type="text" required="required">
+                <span>Remarks</span>
+
+            </div>
+            <br>
+            <div class="Form1">
+                <input type="text" required="required">
+                <span>Pay On</span>
+            </div>
+
+            <br>
+            <button class="btn1">Save</button>
+            <button class="btn2">Proceed</button>
+
+
+            <div class="round">
+                <img src="1-01.png" class="round_Img" alt="">
+            </div>
+
+            <div class="round1">
+                <img src="1-02.png" class="round_Img1" alt="">
+            </div>
+
+            <img src="1-04.png" class="round_Img2" alt="">
+        </div>
+
+
+
     </div>
 
-    <!--  -->
-    <input type="text" id="fname2" name="fname2">
 
-
-    <div class="div12">
-        <input type="radio" name="reason" value="Fit Description">&nbsp;&nbsp;Other Fees
-    </div>
-
-    <!--  -->
-
-
-    <input type="text" id="fname3" name="fname3" values="Transactions Reference Name"
-        placeholder="&nbsp;&nbsp;&nbsp;Transactions Reference Name">
-
-
-
-    <!--  -->
-
-
-
-    <div class="div16">
-        <input type="text" id="fname4" name="fname4" values="Account Number"
-            placeholder="&nbsp;&nbsp;&nbsp;Account Number">
-
-        <h5><i class="bi bi-caret-down-fill"></i></h5>
-    </div>
-
-    <!--  -->
-
-
-
-    <div class="div17">
-        <input type="text" id="fname5" name="fname5" values="Receipt" placeholder="&nbsp;&nbsp;&nbsp;Receipt">
-        <h5><i class="bi bi-caret-down-fill"></i></h5>
-    </div>
-
-
-
-    <!--  -->
-    <input type="text" id="fname6" name="fname6" values="Amount" placeholder="&nbsp;&nbsp;&nbsp;Amount">
-
-    <!-- -->
-
-    <input type="text" id="fname7" name="fname7" values="Remarks" placeholder="&nbsp;&nbsp;&nbsp;Remarks">
-
-    <!--  -->
-
-    <div class="div21">
-        <input type="text" id="fname8" name="fname8" values="Pay On" placeholder="&nbsp;&nbsp;&nbsp;Pay On">
-        <h5><i class="bi bi-app"></i></h5>
-    </div>
+    <!-- ****************************************************************************** -->
 
 
 
@@ -244,7 +259,7 @@
     </div>
 
 
-    <div class="div7">
+    <!-- <div class="div7"> 
         <h4><b>Fees and Payments</b></h4>
     </div>
 
@@ -264,7 +279,7 @@
     </div>
 
 
-    <!-- button -->
+    <!-- button 
     <div class="div13">
         <button type="button" class="btn btn-success">Save</button>
     </div>
@@ -275,17 +290,13 @@
 
 
 
-    <!-- footer  -->
-    <div class="foot">
-        <footer class="bg-light text-center text-lg-start" style="margin-top: 30px; ">
-            <!-- Copyright  -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                © 2020 Copyright:
-                <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-            </div>
-            <!-- Copyright  -->
-        </footer>
+    <!-- footer start-->
+    <div class="last-div">
+        <p>All Rights Reserved By PRO MUNIM.</p>
     </div>
+    <!-- footer end -->
+
+
 
 
 
