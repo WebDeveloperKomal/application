@@ -4,27 +4,33 @@
     /* font-family: Myriad Pro; */
     /* font-family: "Myriad pro Semibold"; */
     font-size: 14px;
+    box-sizing: border-box;
 }
 
 /* nav css */
 .nav {
     background-color: #3BB161;
-    height: 70px;
+    height: 100px;
 }
 
 .logo {
+    width: 160px;
+    height: auto;
+    max-width: 100%;
+    box-sizing: border-box;
     position: absolute;
-    height: 115px;
+    margin-left: 183px;
     margin-top: -11px;
     padding: 0px 10px;
 }
 
 
 .div1 input[type=search] {
-    width: 220px;
-    padding: 5px 0px 5px 33px;
-    margin-left: 925px;
-    margin-top: 18px;
+    width: 239px;
+    height: 47px;
+    padding: 5px 0px 5px 40px;
+    margin-left: 1138px;
+    margin-top: 26px;
     border-radius: 7px;
     border: #3e7e52;
     color: white;
@@ -33,740 +39,418 @@
 
 .div1 ::placeholder {
     color: white;
+    font-size: 16.2px;
 }
 
 .bi-search {
-    margin-left: -208px;
+    margin-left: -227px;
     margin-top: -4px;
     color: white;
 }
 
 .sub-nav {
     background-color: #3e7e52;
-    margin-left: 1180px;
-    width: 40px;
-    height: 40px;
+    margin-left: 1396px;
+    width: 55px;
+    height: 55px;
     padding: 6px 5px;
     border-radius: 200px;
-    margin-top: -35px;
+    margin-top: -52px;
 }
 
 .div-cal {
     background-color: red;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     border-radius: 30px;
-    margin-top: -30px;
-    margin-left: -10px;
+    margin-top: -47px;
+    margin-left: -14px;
 }
 
 .bi-bell-fill {
     color: white;
-    padding-left: 8px;
-    margin-top: 3px;
-
+    padding-left: 7px;
+    margin-top: -1px;
+    margin-left: 4px;
 }
 
 .sub-nav1 {
     background-color: #3e7e52;
     margin-left: 8px;
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     padding: 7px 5px;
     border-radius: 200px;
-    margin-top: -35px;
+    margin-top: -52px;
 }
 
 .bi-person-fill {
     color: white;
-    margin-left: 2px;
+    padding-left: 5px;
+    margin-left: 6px;
+    margin-top: -2px;
 }
 
 
 .bi-chevron-down {
-    margin-top: -50px;
+    margin-top: -71px;
+    margin-left: 6px;
     color: white;
+
+}
+
+body {
+    background-color: #e6e6e6;
 }
 
 
 /* **** Nav Css End ****** */
 .main-div {
-    background-color: #E6E6E6;
+    background-color: #0f75bb;
+    position: relative;
     width: 100%;
-    margin-top: -700px;
-    height: 700px;
+    margin-top: -3px;
+    height: 3px;
 }
 
 
-/* <!-- ********* 2ND DIV ************* --> */
+/* <!-- ********* Side Bar ************* --> */
 
-.div2 {
-    /* font-family: "Myriad Pro"; */
-    position: relative;
-    background-color: #ffffff;
-    margin-left: 0PX;
-    margin-top: -14px;
-    /* color: #36455f; */
+.sidenav {
+    height: 820px;
     width: 210px;
-    height: 700px;
-    font-size: 14px;
-}
-
-.div2 ul a {
-    color: #36455f;
-    text-decoration: none;
-}
-
-/* .div2 ul a:hover{
-    font-weight: 700;
-} */
-
-
-/* ********** Overview *********** */
-
-
-.kp span {
-    /* background-color: #dce8f1;
-    color: #3BB161; */
-    list-style: none;
     position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: 15px;
-    margin-top: 20px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
+    z-index: 1;
+    top: 100px;
+    left: 373px;
+    background-color: white;
+    overflow-x: hidden;
+    /* margin-left: 200px; */
+    padding-top: 10px;
+    line-height: 50px;
 }
 
-
-.kp span:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-    /* height: 50px; */
-}
-
-
-.bi-house-fill {
-    margin-top: -3px;
-    position: absolute;
-    margin-left: -28px;
-}
-
-
-/* ********** Overview End *********** */
-
-/* *********** Fees & Payment ******** */
-
-
-.kp1 {
-    position: absolute;
+.sidenav b {
     margin-left: 30px;
-    margin-top: 100px;
-    height: 2px;
-    width: 50px;
+
 }
 
-
-.kp1 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
+.sidenav a {
     font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -15px;
-    margin-top: -2px;
-    width: 180px;
-    height: 55px;
+    margin-left: -5px;
+    color: #42526E;
 }
 
+.sidenav a:hover {
 
-.kp1 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
+    background: rgb(231, 240, 248);
+    color: #349753;
+    width: 178px;
+    margin-left: 5px;
+    border-radius: 12px;
 }
 
-.bi-wallet-fill {
-    margin-top: 0px;
-    position: absolute;
-    margin-left: -30px;
-}
-
-.kp1 .li2 ul {
-    margin-top: -78px;
-    margin-left: 180px;
-}
-
-.kp1 .li2 {
-    margin-top: -21px;
-}
-
-
-
-.div2 .kp1 .li2 .item .menu-btn {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    padding: 0px 20px;
-    top: 30px;
-    transition: 0.3s;
-    transition-property: color;
-}
-
-.div2 .kp1 .li2 .item .menu-btn:hover {
-    color: #01b83b;
-}
-
-.div2 .kp1 .li2 .item .menu-btn .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp1 .li2 .item .sub-menu {
-    /* background-color: #dce8f1; */
-    font-family: "Myriad Pro";
-    /* overflow: hidden; */
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-    transition-property: background, max-height;
-}
-
-.div2 .kp1 .li2 .item .sub-menu a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    top: 40px;
-    /* line-height: 25px; */
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp1 .li2 .item .sub-menu span:hover {
-    color: #01b83b;
-}
-
-.div2 .kp1 .li2 .item:target .sub-menu {
-    max-height: 500px;
-}
-
-.kp1 .sub-menu hr {
-    margin-top: 50px;
-}
-
-/* *********** Fees & Payment End ******** */
-
-/* *********** Tax Challan **************** */
-
-.kp2 {
-    position: absolute;
-    margin-left: 50px;
-    margin-top: 150px;
-}
-
-.kp2 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
-    font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -13px;
-    margin-top: -2px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
-}
-
-
-.kp2 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-}
-
-.bi-calendar2-range-fill {
-    margin-top: -px;
-    position: absolute;
-    margin-left: -28px;
-}
-
-.kp2 .li6 ul {
-    margin-top: -136px;
-    margin-left: 182px;
-}
-
-.kp2 .li6 {
-    margin-left: -22px;
-    margin-top: -14px;
-}
-
-
-.div2 .kp2 .li6 .item .menu-btn1,
-.div2 .kp2 .li6 .item .menu-btn2,
-.div2 .kp2 .li6 .item .menu-btn3 {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    padding: 20px 20px;
-    top: 20px;
-    transition: 0.3s;
-    transition-property: color;
-}
-
-.div2 .kp2 .li6 .item .menu-btn1:hover,
-.div2 .kp2 .li6 .item .menu-btn2:hover,
-.div2 .kp2 .li6 .item .menu-btn3:hover {
-    color: #01b83b;
-}
-
-.div2 .kp2 .li6 .item .menu-btn1 .bi-caret-down-fill,
-.div2 .kp2 .li6 .item .menu-btn2 .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp2 .li6 .item .sub-menu1,
-.div2 .kp2 .li6 .item .sub-menu2 {
-    /* background-color: #dce8f1; */
-    font-family: "Myriad Pro";
-    /* overflow: hidden; */
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-    transition-property: background, max-height;
-}
-
-.div2 .kp2 .li6 .item .sub-menu1 a,
-.div2 .kp2 .li6 .item .sub-menu2 a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    top: 10px;
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp2 .li6 .item .sub-menu1 span:hover,
-.div2 .kp2 .li6 .item .sub-menu2 span:hover {
-    color: #01b83b;
-}
-
-.div2 .kp2 .li6 .item:target .sub-menu1 {
-    max-height: 500px;
-}
-
-
-
-/* *********** Tax Challan End **************** */
-
-/* ********  Document ************ */
-.kp3 {
-    position: absolute;
-    margin-left: 50px;
-    margin-top: 210px;
-    height: 20px;
-    width: 50px;
-}
-
-.kp3 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
-    font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -13px;
-    margin-top: 0px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
-}
-
-
-.kp3 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-}
-
-.bi-file-earmark-fill {
-    margin-top: -0px;
-    position: absolute;
-    margin-left: -28px;
-}
-
-.kp3 .li7 ul {
-    margin-top: -190px;
-    margin-left: 183px;
-}
-
-.kp3 .li7 {
-    margin-left: -22px;
-}
-
-.kp3 ul .Doc1 {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 10px;
-    /* padding: 12px 20px; */
-}
-
-.kp3 .li7 .Doc1:hover {
-    color: #01b83b;
-}
-
-
-/* ********  Document End ************ */
-
-/* *********Acknowledgement******** */
-.kp4 {
-    position: absolute;
-    margin-left: 30px;
-    /* background-color: red; */
-    width: 18px;
-    height: 5px;
-    margin-top: 270px;
-}
-
-
-.kp4 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
-    font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -15px;
-    margin-top: -3px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
-}
-
-.bi-file-earmark-check-fill {
-    margin-top: -3px;
-    position: absolute;
-    margin-left: -28px;
-}
+.dropdown-btn {
+    line-height: 50px;
+    margin-left: 0px;
 
-.kp4 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-}
-
-
-.kp4 .li8 ul {
-    margin-top: -250px;
-    margin-left: 181px;
-}
-
-.kp4 ul .Ack1 {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-    /* top: 15px; */
-}
-
-.kp4 ul .Ack2 {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-    top: 15px;
-}
-
-.kp4 ul .item .sub-menu1 {
-    top: 50px;
-    margin-top: 20px;
-}
-
-.kp4 .li8 .Ack1:hover,
-.kp4 .li8 .Ack2:hover {
-    color: #01b83b;
-}
-
-.div2 .kp4 .li8 .item .Ack2 .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp4 .li8 .item .sub-menu1 {
-    /* background-color: #dce8f1; */
-    font-family: "Myriad Pro";
-    /* overflow: hidden; */
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-
-    transition-property: background, max-height;
-}
-
-.div2 .kp4 .li8 .item .sub-menu1 a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    /* line-height: 25px; */
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp4 .li8 .item .sub-menu1 span:hover {
-    color: #01b83b;
-}
-
-
-
-/* ********* Acknowledgement End ******** */
-
-/* ********Insure & Invest*********** */
-.kp5 {
-    position: absolute;
-    margin-left: 30px;
-    /* background-color: red; */
-    width: 18px;
-    height: 5px;
-    margin-top: 328px;
-}
-
-.kp5 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
-    font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -15px;
-    margin-top: -4px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
-    transition: .1s ease;
-}
-
-.bi-patch-check-fill {
-    margin-top: 0px;
-    position: absolute;
-    margin-left: -30px;
-}
-
-.kp5 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-    transition: .1s ease;
-}
-
-.kp5 .li9 ul {
-    margin-top: -308px;
-    margin-left: 180px;
-}
-
-.kp5 ul .Invest {
-    display: block;
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-    top: 15px;
-}
-
-.kp5 ul .item .sub-menu1 {
-    top: 50px;
-    margin-top: 20px;
-}
-
-.kp5 .li9 .Invest:hover,
-.kp5 .li9 .Invest1:hover {
-    color: #01b83b;
-}
-
-.div2 .kp5 .li9 .item .Invest .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp5 .li9 .item .sub-menu1 {
-    font-family: "Myriad Pro";
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-    transition-property: background, max-height;
-}
-
-.div2 .kp5 .li9 .item .sub-menu1 a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    /* line-height: 25px; */
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp5 .li9 .item .sub-menu1 span:hover {
-    color: #01b83b;
-}
-
-.kp5 .li9 .Invest1 {
-    display: block;
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-}
-
-
-
-
-/* ******** Insure & Invest End *********** */
-
-/* *********** My Account ********* */
-.kp6 {
-    position: absolute;
-    margin-left: 30px;
-    /* background-color: red; */
-    width: 18px;
-    height: 5px;
-    margin-top: 386px;
-}
-
-.kp6 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
-    font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 17px 0px 0px 40px;
-    margin-left: -15px;
-    margin-top: -4px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
-}
-
-.bi-person-square {
-    margin-top: 2px;
-    position: absolute;
-    margin-left: -30px;
-}
-
-.kp6 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-}
 
-.kp6 .li10 ul {
-    margin-top: -367px;
-    margin-left: 180px;
 }
 
-
-.kp6 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-    transition: .1s ease;
-}
-
-.kp6 .li10 ul {
-    margin-top: -367px;
-    margin-left: 180px;
-}
-
-.kp6 ul .Acc {
-    display: block;
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-    top: 15px;
-}
-
-.kp6 ul .item .sub-menu1 {
-    top: 50px;
-    margin-top: 20px;
-}
-
-.kp6 .li10 .Acc:hover {
-    color: #01b83b;
-}
-
-.div2 .kp6 .li10 .item .Acc .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp6 .li10 .item .sub-menu1 {
-    font-family: "Myriad Pro";
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-    transition-property: background, max-height;
-}
-
-.div2 .kp6 .li10 .item .sub-menu1 a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    /* line-height: 25px; */
-    transition: 0.03s;
-    transition-property: background;
+.fa-caret-down {
+    margin-top: 16px;
+    /* margin-left: 10px; */
 }
 
-.div2 .kp6 .li10 .item .sub-menu1 span:hover {
-    color: #01b83b;
+/* ******************************************* */
+.sidenav .bi-house-door-fill a {
+    color: #42526E;
 }
 
-.kp6 .li10 .Invest1 {
-    display: block;
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-}
-
-
-/* *********** My Account End ********* */
 
-.div2 ul {
-    list-style: none;
-}
-
-.div2 ul li {
-    width: 182px;
-    height: 46px;
-    margin-top: -19px;
-}
 
-.div2 ul ul {
-    position: absolute;
+.dropdown-container1 {
     display: none;
-    height: 700px;
-    width: 200px;
+    padding-left: 2px;
+    /* color: black; */
+}
+
+.sidenav .dropdown-container1 a {
+    color: #42526E;
     font-size: 14px;
-    background-color: rgb(214, 214, 214);
-    margin-left: 143px;
-    margin-top: -100px;
+    margin-left: 30px;
+    height: 15px;
+}
+
+.dropdown-container2 {
+    margin-left: 65px;
+    font-size: 14px;
+
+}
+
+.sidenav .dropdown-container2 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -25px;
+    height: 15px;
+}
+
+.dropdown-container3 {
+    margin-left: 45px;
+    font-size: 14px;
+
+}
+
+.sidenav .dropdown-container3 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -10px;
+    height: 15px;
+}
+
+.dropdown-container4 {
+    margin-left: 55px;
+    font-size: 14px;
+}
+
+.sidenav .dropdown-container4 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -36px;
+    height: 15px;
+    width: 300px;
+}
+
+.dropdown-container5 {
+    margin-left: 75px;
+    font-size: 14px;
+
+}
+
+.sidenav .dropdown-container5 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -30px;
+    height: 15px;
+}
+
+.dropdown-container6 {
+    margin-left: 65px;
+    font-size: 14px;
+
+}
+
+.sidenav .dropdown-container6 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -20px;
+    height: 15px;
+}
+
+/* ************************************** */
+
+
+
+
+.dropdown-btn i {
+    margin-left: -23px;
 }
 
 
+/* Style the sidenav links and the dropdown button */
+.sidenav a,
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    background-color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+
+}
+
+/* On mouse-over */
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #349753;
+
+}
+
+.sidenav a i:hover {
+    color: #349753;
+
+}
+
+/* Main content */
+.main {
+    margin-left: 200px;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    /* background-color: rgb(180, 180, 180); */
+    color: #42526E;
+}
+
+.active:hover {
+    background: rgb(231, 240, 248);
+    color: #349753;
+    width: 205px;
+    margin-left: 5px;
+    border-radius: 12px;
+}
+
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+
+.dropdown-container1 {
+    display: none;
+    padding-left: 10px;
+}
+
+.dropdown-container2 {
+    display: none;
+    padding-left: 8px;
+
+}
+
+.dropdown-container3 {
+    display: none;
+    padding-left: 8px;
+}
+
+.dropdown-container4 {
+    display: none;
+    padding-left: 8px;
+}
+
+.dropdown-container5 {
+    display: none;
+    padding-left: 8px;
+}
+
+.dropdown-container6 {
+    display: none;
+    padding-left: 8px;
+}
+
+
+
+
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.sidenav .bi-house-door-fill {
+    /* color: #42526E; */
+    margin-left: 4px;
+    font-size: 14px;
+    color: #42526E;
+}
+
+.dropdown-btn .bi-alipay {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+}
+
+.dropdown-btn .bi-alipay:hover {
+    color: #349753;
+
+}
+
+.sidenav .bi-file {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+}
+
+.dropdown-btn .bi-file:hover {
+    color: #349753;
+}
+
+.sidenav .bi-upload {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+
+}
+
+.dropdown-btn .bi-upload:hover {
+    color: #349753;
+}
+
+.sidenav .bi-browser-chrome {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+
+}
+
+.dropdown-btn .bi-browser-chrome:hover {
+    color: #349753;
+}
+
+.sidenav .bi-receipt {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+}
+
+.dropdown-btn .bi-receipt:hover {
+    color: #349753;
+}
+
+.sidenav .bi-person-circle {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+
+}
+
+.dropdown-btn .bi-person-circle:hover {
+    color: #349753;
+}
+
+
+.sidenav .dropdown-container1 a:hover {
+    background: none;
+}
+
+.sidenav .dropdown-container2 a:hover {
+    background: none;
+}
+
+.sidenav .dropdown-container3 a:hover {
+    background: none;
+}
+
+.sidenav .dropdown-container4 a:hover {
+    background: none;
+}
+
+.sidenav .dropdown-container5 a:hover {
+    background: none;
+}
+
+.sidenav .dropdown-container6 a:hover {
+    background: none;
+}
+
+/* ************ Side Bar End **************** */
 
 /* ************ FN **************** */
 
@@ -792,7 +476,6 @@
     position: absolute;
     height: 22px;
     width: 22px;
-    /* background-color: #000000; */
     top: 32px;
     left: 364px;
     cursor: pointer;
@@ -838,14 +521,486 @@
     text-align: center;
     padding: 10px 0px;
     height: 40px;
-    margin-top: 0px;
+    margin-top: 820px;
+}
+
+p {
+    margin-top: 0;
+    font-size: 16px;
+    margin-bottom: 1rem;
 }
 
 /* *********Last Div End  *********** */
 
 
 
+@media only screen and (max-width: 1440px) {
 
+    .nav {
+        background-color: #3BB161;
+        height: 82px;
+    }
+
+    .logo {
+        margin-left: 0px;
+        width: 144px;
+    }
+
+    .div1 input[type=search] {
+        margin-left: 1015px;
+        height: 36px;
+        margin-top: 24px;
+    }
+
+    .sub-nav {
+        width: 45px;
+        height: 45px;
+        padding: 6px 5px;
+        margin-top: -44px;
+        margin-left: 1268px;
+    }
+
+    .bi-bell-fill {
+        padding-left: 12px;
+        margin-top: -5px;
+        margin-left: -2px;
+    }
+
+    .div-cal {
+        background-color: red;
+        width: 9px;
+        height: 9px;
+        border-radius: 30px;
+        margin-top: -41px;
+        margin-left: -14px;
+    }
+
+    .sub-nav1 {
+        background-color: #3e7e52;
+        margin-left: 8px;
+        width: 45px;
+        height: 45px;
+        padding: 7px 5px;
+        border-radius: 200px;
+        margin-top: -43px;
+    }
+
+    .bi-person-fill {
+        padding-left: 9px;
+        margin-left: -1px;
+        margin-top: -7px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -62px;
+        margin-left: 6px;
+        color: white;
+    }
+
+    .div2 {
+        margin-left: 0PX;
+        height: 918px;
+    }
+
+    .div2 ul ul {
+        height: 918px;
+    }
+
+    .main-div {
+        margin-top: -919px;
+    }
+
+    /* ***************** Dis *********************** */
+   
+    
+.div4 {
+    margin-left: 210px;
+    /* margin-top: -950px; */
+}
+
+.div4 h5 {
+    padding: 30px 20px;
+    font-size: 25px;
+    font-family: "Myriad pro Semibold";
+    color: #42526E;
+}
+
+.sub-div01 {
+    position: relative;
+    background-color: white;
+    margin-left: 45px;
+    margin-top: -20px;
+    height: 250px;
+    width: 1146px;
+    border-radius: 16px;
+}
+/* 1st div  */
+
+.subdiv1 {
+
+    background-color: #3BB161;
+    padding: 7px 10px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.bi-file-ruled-fill {
+    color: white;
+}
+
+.subdiv1 p {
+    font-family: Myriad Pro;
+    font-size: 14px;
+    width: 81px;
+    margin-left: 40px;
+    margin-top: -20px;
+    color: #42526E;
+}
+
+
+/* 2nd div  */
+.subdiv2 {
+
+    background-color: #3BB161;
+    padding: 7px 10px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    border-radius: 50px;
+    margin-left: 350px;
+}
+
+.bi-ui-checks-grid {
+    color: white;
+}
+
+.subdiv2 p {
+    font-family: Myriad Pro;
+    font-size: 14px;
+    width: 81px;
+    margin-left: 40px;
+    margin-top: -20px;
+    color: #42526E;
+}
+
+/* 3rd div  */
+.subdiv3 {
+
+    background-color: #3BB161;
+    padding: 7px 10px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    border-radius: 50px;
+    margin-left: 700px;
+}
+
+.bi-currency-exchange {
+    color: white;
+}
+
+.subdiv3 p {
+    font-family: Myriad Pro;
+    font-size: 14px;
+    width: 124px;
+    margin-left: 40px;
+    margin-top: -20px;
+    color: #42526E;
+}
+
+/* 4th div  */
+.subdiv4 {
+
+    background-color: #3BB161;
+    padding: 7px 10px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.bi-shield-plus {
+    color: white;
+}
+
+.subdiv4 p {
+    font-family: Myriad Pro;
+    font-size: 14px;
+    width: 95px;
+    margin-left: 40px;
+    margin-top: -20px;
+    color: #42526E;
+}
+
+
+/* 5th div  */
+.subdiv5 {
+
+    background-color: #3BB161;
+    padding: 7px 10px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    border-radius: 50px;
+    margin-left: 350px;
+}
+
+.bi-cash-stack {
+    color: white;
+}
+
+.subdiv5 p {
+    font-family: Myriad Pro;
+    font-size: 14px;
+    width: 81px;
+    margin-left: 40px;
+    margin-top: -20px;
+    color: #42526E;
+}
+
+
+/* 6th div  */
+.subdiv6 {
+
+    background-color: #3BB161;
+    padding: 7px 10px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    border-radius: 50px;
+    margin-left: 700px;
+}
+
+.bi-person-fill-gear {
+    color: white;
+}
+
+.subdiv6 p {
+    font-family: Myriad Pro;
+    font-size: 14px;
+    width: 156px;
+    margin-left: 40px;
+    margin-top: -20px;
+    color: #42526E;
+}
+
+
+/* 7th div  */
+.subdiv7 {
+
+    background-color: #3BB161;
+    padding: 7px 10px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 170px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.bi-file-earmark-richtext-fill {
+    color: white;
+}
+
+.subdiv7 p {
+    font-family: Myriad Pro;
+    font-size: 14px;
+    width: 81px;
+    margin-left: 40px;
+    margin-top: -20px;
+    color: #42526E;
+}
+
+
+
+.sub-div02 {
+    position: relative;
+    background-color: white;
+    margin-left: 43px;
+    margin-top: 20px;
+    height: 590px;
+    width: 1147px;
+    border-radius: 16px;
+}
+
+.sub-div02 h5 {
+    padding: 20px 15px;
+    font-size: 18px;
+    font-family: "Myriad pro Semibold";
+    color: #42526E;
+}
+
+.sub-div02 .bi-question-circle {
+    margin-left: 90px;
+    margin-top: -100px;
+}
+   
+    /* ****************** dis end ******************* */
+    .last-div {
+        margin-top: 917px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .div1 input[type=search] {
+        margin-left: 947px;
+    }
+
+    .sub-nav {
+        margin-left: 1197px;
+    }
+
+    .main-div {
+        margin-top: -629px;
+    }
+
+    .div2 {
+        height: 810px;
+    }
+
+    .div2 ul ul {
+        height: 810px;
+    }
+  
+    .main-div {
+        margin-top: -811px;
+    }
+
+    .sub-div01 {
+        margin-left: 24px;
+        width: 1090px;
+    }
+
+    .sub-div02 {
+        margin-left: 27px;
+        width: 1090px;
+    }
+
+    .last-div {
+        margin-top: 952px;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .div1 input[type=search] {
+        margin-left: 785px;
+    }
+
+    .sub-nav {
+        margin-left: 1042px;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        background-color: #3BB161;
+        height: 80px;
+    }
+
+    .div1 input[type=search] {
+        width: 180px;
+        height: 36px;
+        padding: 2px 0px 5px 27px;
+        margin-left: 678px;
+        margin-top: 23px;
+    }
+
+    .bi-search {
+        margin-left: -178px;
+        padding-left: 6px;
+        margin-top: -4px;
+        color: white;
+    }
+
+    .sub-nav {
+        margin-left: 863px;
+        width: 44px;
+        height: 44px;
+        margin-top: -41px;
+    }
+
+    .div-cal {
+        width: 8px;
+        height: 8px;
+        margin-top: -37px;
+        margin-left: -11px;
+    }
+
+    .bi-bell-fill {
+        padding-left: 11px;
+        margin-top: -5px;
+        margin-left: -2px;
+    }
+
+    .sub-nav1 {
+        margin-left: 8px;
+        width: 44px;
+        height: 44px;
+        margin-top: -41px;
+    }
+
+    .bi-person-fill {
+        padding-left: 9px;
+        margin-left: -1px;
+        margin-top: -7px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -62px;
+    }
+
+    .main-div {
+        margin-top: -600px;
+
+    }
+
+    .logo {
+        width: 147px;
+    }
+
+    .div2 {
+        height: 600px;
+        margin-top: -14px;
+    }
+
+    .div2 ul ul {
+        height: 600px;
+    }
+
+    .last-div {
+        margin-top: 598px;
+    }
+}
+
+@media only screen and (max-width: 923px) {
+    .div1 input[type=search] {
+        width: 180px;
+        height: 36px;
+        padding: 2px 0px 5px 27px;
+        margin-left: 565px;
+        margin-top: 23px;
+    }
+
+    .sub-nav {
+        margin-left: 758px;
+        width: 44px;
+        height: 44px;
+        margin-top: -41px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .nav {
@@ -853,37 +1008,36 @@
     }
 
     .div1 input[type=search] {
-        margin-left: 401px;
+        margin-left: 439px;
     }
 
     .bi-search {
-        margin-left: 412px;
-        margin-top: -54px;
+        margin-left: 442px;
+        margin-top: -62px;
     }
 
     .sub-nav {
-        margin-left: 631px;
-        margin-top: -55px;
+        margin-left: 629px;
+        margin-top: -60px;
     }
 
     .sub-nav1 {
-        margin-top: -54px;
+        margin-top: -60px;
     }
 
     .div-cal {
-        margin-top: -51px;
+        margin-top: -57px;
     }
 
     .bi-chevron-down {
-        margin-top: -93px;
-        color: white;
-        margin-left: 713px;
+        margin-top: -100px;
+        margin-left: 727px;
     }
 
     .main-div {
-        width: 768px;
+        /* margin-top: -600px; */
+        display: none;
     }
-
 
     .last-div {
         width: 768px;
@@ -893,31 +1047,38 @@
 @media (max-width: 576px) {
     .nav {
         width: 576px;
+        height: 73px;
+    }
+
+    .logo {
+        width: 135px;
+        margin-left: -4px;
     }
 
     .div1 input[type=search] {
         margin-left: 270px;
-        width: 170px;
+        width: 164px;
+        margin-top: 19px
     }
 
     .bi-search {
-        margin-left: 281px;
+        margin-left: 273px;
     }
 
     .sub-nav {
-        margin-left: 446px;
-        margin-top: -57px;
+        margin-left: 441px;
+        margin-top: -61px;
     }
 
     .sub-nav1 {
         margin-left: 6px;
-        margin-top: -57px;
+        margin-top: -60px;
     }
 
     .bi-chevron-down {
-        margin-top: -94px;
+        margin-top: -100px;
         color: white;
-        margin-left: 526px;
+        margin-left: 536px;
     }
 
     .div2 {
@@ -959,12 +1120,6 @@
         margin-left: 153px;
     }
 
-    .main-div {
-        width: 576px;
-    }
-
-
-
     .last-div {
         width: 576px;
     }
@@ -973,7 +1128,7 @@
 
 
 @media (max-width: 425px) {
-
+    /* 
     .nav {
         width: 425px;
         height: 93px;
@@ -981,8 +1136,8 @@
 
     .logo {
         position: absolute;
-        height: 103px;
-        margin-top: -5px;
+        height: 107px;
+        margin-top: -7px;
         padding: 0px 10px;
     }
 
@@ -992,7 +1147,8 @@
     }
 
     .bi-search {
-        margin-left: 248px;
+        margin-left: 239px;
+        margin-top: -64px;
     }
 
     .sub-nav {
@@ -1001,21 +1157,21 @@
         width: 32px;
         height: 29px;
     }
-
     .bi-bell-fill {
-        padding-left: 9px;
-        margin-left: -4px;
-        margin-top: -8px;
+        padding-left: 16px;
+        margin-left: -11px;
+        margin-top: -13px;
     }
 
     .div-cal {
-        margin-top: -17px;
+        margin-top: -14px;
+        margin-left: -7px;
         width: 5px;
         height: 6px;
     }
 
     .sub-nav1 {
-        margin-left: 295px;
+        margin-left: 293px;
         margin-top: -29px;
         width: 32px;
         height: 29px;
@@ -1023,35 +1179,36 @@
 
     .bi-person-fill {
         color: white;
-        margin-left: 3px;
+        margin-left: 1px;
         width: 17px;
         height: 16px;
-        margin-top: -11px;
+        margin-top: -14px;
+        padding-left: 3px;
     }
 
     .bi-chevron-down {
         margin-top: -51px;
-        margin-left: 328px;
+        margin-left: 335px;
     }
 
     .sidebarIconToggle {
-        top: 60px;
+        top: 66px;
         left: 369px;
         width: 18px;
-    }
+    } */
 
 
 
-    /* .nav {
+    .nav {
         width: 425px;
         height: 77px;
     }
 
     .logo {
         position: absolute;
-        height: 87px;
+        height: 101px;
         width: 128px;
-        margin-top: -5px;
+        margin-top: -9px;
     }
 
     .div1 input[type=search] {
@@ -1070,31 +1227,44 @@
         display: none;
     }
 
+    .sidebarIconToggle {
+        top: 27px;
+        left: 363px;
+        width: 23px;
+    }
+
+    .main-div {
+        display: block;
+        width: 425px;
+        height: 6px;
+        margin-top: -600px;
+    }
+
+
+
+
+
     .spinner {
         height: 5px;
     }
 
-  
-    .sidebarIconToggle {
-        top: 28px;
-        left: 352px;
-        width: 24px;
-    }   
-    
-       #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+
+    /* .sidebarIconToggle {
+        top: 62px;
+        left: 363px;
+        width: 23px;
+    }   */
+
+    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
         transform: rotate(-135deg);
         margin-top: -12px;
     }
-    
-    */
 
 
     .div2 {
         transform: translateX(-210px);
         transition: transform 250ms ease-in-out
     }
-
-
 
     .sidebarIconToggle,
     .top,
@@ -1103,17 +1273,10 @@
         display: block;
     }
 
-    .main-div {
-        width: 425px;
-        height: 700px;
-        margin-top: -700px;
-    }
-
     .last-div {
         width: 425px;
-        margin-top: 0px;
+        margin-top: 595px;
     }
-
 
 }
 
@@ -1128,6 +1291,7 @@
     .div1 input[type=search] {
         display: none;
     }
+
     .bi-search {
         display: none;
     }
@@ -1190,12 +1354,12 @@
 
 
     .sidebarIconToggle {
-        top: 37px;
+        top: 25px;
         left: 319px;
         width: 24px;
     }
-    
-       #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+
+    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
         transform: rotate(-135deg);
         margin-top: -13px;
     }
@@ -1204,7 +1368,7 @@
         width: 375px;
         margin-top: px;
     }
-    
+
 }
 
 
@@ -1270,6 +1434,11 @@
         width: 320px;
     }
 
+    .sidebarIconToggle {
+        top: 25px;
+        left: 277px;
+        width: 24px;
+    }
 
     .last-div {
         width: 320px;
