@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa"> -->
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="c.css">
+
+</head>
+
+<body>
+
+    <div class="sidenav">
+
+        <a href="#">
+            <i class="bi bi-house-door-fill"></i>&nbsp;&nbsp;Overview
+        </a>
+
+
+        <button class="dropdown-btn"><i class="bi bi-alipay"></i>&nbsp;&nbsp;Fees & Payment
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container1">
+            <a href="#">Monthly Fees Payment</a>
+            <a href="#">Annual Fees Payment</a>
+            <a href="#">Other Fees Payment</a><br>
+        </div>
+
+
+
+
+
+        <button class="dropdown-btn"><i class="bi bi-file"></i>&nbsp;&nbsp;Tax Challan
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container2">
+            <a href="#">Pay GST</a>
+            <a href="#">Direct GST</a>
+            <a href="#">Indirect GST</a>
+            <a href="#">GSTN Details</a>
+            <a href="#">GSTN report</a>
+            <a href="#">GSTN Bulk Upload</a><br>
+        </div>
+
+
+
+
+        <button class="dropdown-btn"><i class="bi bi-upload"></i>&nbsp;&nbsp;Documents
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container3">
+            <a href="#">Bank Statement</a>
+            <a href="#">Sales Invoice</a>
+            <a href="#">Purchase Invoice</a>
+            <a href="#">Outstanding Loan</a>
+            <a href="#">Pay-in-slips</a>
+            <a href="#">Taxes</a>
+            <a href="#">Chequeboot Records</a>
+            <a href="#">Investment Details</a>
+            <a href="#">Vehicles</a>
+            <a href="#">Customer KYC</a>
+            <a href="#">Expense Detail</a><br>
+        </div>
+
+
+
+
+        <button class="dropdown-btn"><i class="bi bi-browser-chrome"></i>&nbsp;&nbsp;Acknowledgement
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container4">
+            <a href="#">Income Tax</a>
+            <a href="#">(GST) Goods & Service Tax</a>
+            <a href="#">Professional Tax</a>
+            <a href="#">TDS / TCS</a>
+            <a href="#">ROC compliance</a>
+            <a href="#">Other</a><br>
+        </div>
+
+
+
+
+
+        <button class="dropdown-btn"><i class="bi bi-receipt"></i>&nbsp;&nbsp;Insure & Invest
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container5">
+            <a href="#">Fixed Deposit</a>
+            <a href="#">Mutual Funds</a>
+            <a href="#">Insurance</a><br>
+        </div>
+
+
+
+
+        <button class="dropdown-btn"><i class="bi bi-person-circle"></i>&nbsp;&nbsp;My Account
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container6">
+            <a href="#">Live Account</a>
+            <a href="#">Outstanding Loan</a>
+            <a href="#">Periodic Statement</a>
+            <a href="#">E-Statement</a>
+            <a href="#">Tax Statement</a>
+            <a href="#">Register Statement</a><br>
+        </div>
+
+
+
+
+    </div>
+
+
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
