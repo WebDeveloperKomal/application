@@ -331,10 +331,13 @@ button {
     background: rgb(231, 240, 248);
     color: #349753;
     width: 200px;
-    margin-left: 5px;
+    margin-left: 9px;
     border-radius: 12px;
 }
 
+.dropdown-btn a:hover {
+    margin: inherit;
+}
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 
